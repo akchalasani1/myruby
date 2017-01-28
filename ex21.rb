@@ -1,5 +1,5 @@
 =begin
-
+This is Anil Chalasani
 Start from the inside and work out.
 Divide iq by 2. Multiply that by weight. Subtract that from height. Add that to age.
 In general, with nested parentheses, you always start from the innermost.
