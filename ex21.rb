@@ -42,8 +42,9 @@ puts "Age: #{age}, Height: #{height}, Weight: #{weight}, IQ: #{iq}"
 
 puts "Here is the puzzle."
 
-what = 24 + 34 / 100 - 1023
-
+# putting raw number's as per the study drill
+# what = 74 - 50 / 2 * 180 + 35
+what = (height - iq / 2 * weight + age)
 #what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 puts "That becomes: #{what}. Can you do it by hand?"
