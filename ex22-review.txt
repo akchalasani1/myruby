@@ -1,0 +1,5 @@
+$ ruby -v : to check ruby version.
+
+$ irb : to run Interactive Ruby Shell
+
+puts : this element will print the string.
