@@ -1,5 +1,136 @@
+EX1: Printing
+
 $ ruby -v : to check ruby version.
 
 $ irb : to run Interactive Ruby Shell
 
-puts : this element will print the string.
+puts : command to print a statement
+
+'' : single quotes
+
+" " : double quotes
+
+------------------------------------------------------
+
+EX2: Comments and Pound Characters
+
+# : single line comment
+
+=begin : multiple line comment
+any
+text
+=end
+
+puts "Hi # there."
+The # in the above code is inside a string.
+These pound or hash (#) characters are just considered characters and aren't considered comments.
+
+------------------------------------------------------
+
+EX3: Numbers and Math
+
++ plus
+- minus
+/ forward slash
+\ backward slash
+* asterisk
+% percent
+< less-than
+> greater-than
+<= less-than-equal
+>= greater-than-equal
+
+"Operations" means things like add, subtract, multiply, divide, squaring, etc.
+If it isn't a number it is probably an operation.
+
+### PEMDAS ###
+NOTE: order of operations is PEMDAS (ex: please excuse my dear aunt sally)
+which stands for Parentheses Exponents Multiplication Division Addition Subtraction.
+
+P - Parentheses first ()
+E - Exponents (ie Powers and Square Roots, etc.) - 2 power of 3 - 2 x 2 x 2 = 8
+MD - Multiplication and Division (left-to-right)
+AS - Addition and Subtraction (left-to-right)
+
+ex: puts "What is 3 + 2? #{3 + 2}"
+The use of #{3+2} in the code above is how you insert Ruby computations(the action of mathematical calculation) into text strings.
+You can put anything that is Ruby code between the { (left-bracket) and } (right-bracket)
+characters and Ruby will run it and put the result of 3 + 2 there instead of those characters #{ } .
+
+puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+above code displays 7 as the result once run,
+since it's order of operations is PEMDAS
+
+There are no fractions, only whole numbers.
+You need to use a "floating point" number
+which is a number with a decimal point, as in 10.5, or 0.89, or even 3.0.
+puts 3 + 2 + 1 - 5 + 4 % 2 - 0.1 / 4 + 6  displays result as 6.975
+puts 3 + 2 + 1 - 5 + 4 % 2 - 1.0 / 4 + 6  displays result as 6.75
+
+% character a "modulus" and not a "percent"
+In programming this calculation is typically done with simple division and the / operator.
+The % modulus is a different operation that just happens to use the % symbol.
+For example, "100 divided by 16 with 4 remaining."
+The result of % is the remaining part 4.
+
+------------------------------------------------------
+
+EX4: Variables And Names
+
+variable is any line of code where you set a name = (equal) to a value.
+In programming a variable is nothing more than a name for something.
+Programmers use these variable names to make their code read more like English.
+
+example:
+cars = 100  :cars is the variable name and 100 is it's value, 100 is assigned to cars.
+where ever you use cars you are using 100.
+space_in_a_car = 4.0   #floating point '.' is used in 4.0 to make it a fraction.
+drivers = 30
+passengers = 90
+cars_not_driven = cars - drivers  :you can use variables to do mathematical calculation. minus in this case.
+cars_driven = drivers
+carpool_capacity = cars_driven * space_in_a_car  :you can use variables to do mathematical calculation. multiply in this case
+average_passengers_per_car = passengers / cars_driven :you can use variables to do mathematical calculation. division is this case
+
+The = (single-equal) assigns the value on the right to a variable on the left.
+The == (double-equal) tests if two things have the same value.
+
+# variables can be called into the string " " with #{ }
+puts "There are #{cars} cars available."
+
+
+------------------------------------------------------
+
+EX5: More Variables and Printing
+
+Every time you put " (double-quotes) around a piece of text you have been making a string.
+A string is how you make something that your program might give to a human.
+You print strings, save strings to files, send strings to web servers, and many other things.
+
+my_name = 'Chalasani'  :if value is a name ex: 'Chalasani' assigned to variable it should be in single quotes ''
+my_age = 35  : if value is a number assigned to variable no single or double quotes required.
+
+puts "Let's talk about #{my_name}."  :
+You embed variables inside a string by using a special #{} sequence and then put the variable you want inside the {} characters ex: #{my_name}.
+This tells Ruby, "Hey, this string needs to be formatted. Put these variables in there to display it's value."
+
+puts "Do you know, i am #{my_age} years old." : displays the value from variable my_age.
+
+puts "If I add #{my_age}, #{my_height}, and #{my_weight} I get #{my_age + my_height + my_weight}."
+In the above line values of (my_age, my_height, my_weight) variables are displayed and then addition of the values in the three variables.
+
+------------------------------------------------------
+
+EX6: Strings and Text
+
+Strings can contain any number of variables that are in your Ruby script.
+A string is usually a bit of text you want to display to someone, or "export" out of the program you are writing.
+
+@@@@@ short and cryptic (or) short abbreviated variable names : example: x = "word" and y = 10
+
+
+
+@@@@@ Find all the places where a string is put inside a string
+@@@@@ Explain why adding the two strings w and e with + makes a longer string.
+
+@@@@@ formats
