@@ -1,0 +1,28 @@
+git add -A  ( to add all files)
+
+git commit -m
+
+git push
+
+git pull
+
+git status
+
+git branch
+
+git merge <branch>
+
+git checkout
+
+git log or git lg1
+
+git diff
+
+git clone
+
+git checkout -b
+<branch>
+
+git commit -am “comment”
+
+git fetch && git checkout <branch> ( To Switch branch from master to branch)
