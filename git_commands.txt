@@ -1,29 +1,34 @@
-git add -A  ( to add all files)
+git add -A  ( to add all files to staging)
 
-git commit -m
+git commit -m (saving them on staging)
 
-git push
+git push (push the latest files to repo)
 
-git pull
+git pull (pulls the latest stuff)
 
-git status
+git status (show what's new or modified files)
 
-git branch
+git branch (show if you are on master or branch)
 
-git merge <branch>
+git merge <branch> ( merging the latest on the branch to master)
 
-git checkout
+git merge --no-ff <branch>  ( fast forward )
 
-git log or git lg1
+git checkout -b <branch> (to create a new branch)
 
-git diff
+git checkout master  ( to switch to master )
 
-git clone
+git checkout <branch> ( to switch to branch )
 
-git checkout -b
-<branch>
+git log or git lg1 (to check the logs of commits done)
 
-git commit -am “comment”
+git diff (show the differences done to each file)
+
+git clone https://github.com/akchalasani1/myruby.git (download the repo to your local folder)
+
+git commit -am “comment”  (doesn't work if new file ADDING only for modified)
+
+git add . && git commit -am "comment" (works for new files and modified)
 
 git fetch && git checkout <branch> ( To Switch branch from master to branch)
 
