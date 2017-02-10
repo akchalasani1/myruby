@@ -10,6 +10,7 @@ Major City's:
 \t* Long Beach
 """
 rank = '''
+
 Rank:
 * 1
 * 2

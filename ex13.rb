@@ -1,3 +1,5 @@
+# $ruby ex13.rb first 2nd 3rds
+
 =begin
 we will cover one more input method you can pass variables to a script.
 (script being another name for your .rb files). you know how you type ruby ex13.rb

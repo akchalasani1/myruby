@@ -126,11 +126,113 @@ EX6: Strings and Text
 Strings can contain any number of variables that are in your Ruby script.
 A string is usually a bit of text you want to display to someone, or "export" out of the program you are writing.
 
-@@@@@ short and cryptic (or) short abbreviated variable names : example: x = "word" and y = 10
+short and cryptic (or) short abbreviated variable names : example: x = "word" and y = 10
 
+? Explain why adding the two strings w and e with + makes a longer string.
+This is called concatenation, and it basically says take the first part and add it to the second part.
+Since it's not mathematical or adding numbers, it interprets it as "take the first string and add the second string to it,
+ not mathematically but put them side by side.
 
+? Find all the places where a string is put inside a string
+There are four places with literal "string" insertion (binary, do_not, x & y)
 
-@@@@@ Find all the places where a string is put inside a string
-@@@@@ Explain why adding the two strings w and e with + makes a longer string.
+? formats  #{types_of_people} or Like this: #{variable_name}.
+There is another way to put variables directly into a string, using that fancy term I mentioned before; string interpolation.
+That really just means "hey, when you see these characters together, it means take the variable value and replace it inside the string.
+ The format for doing that is to use the "# hash" character
 
-@@@@@ formats
+------------------------------------------------------
+
+EX7: More Printing
+
+puts "Its fleece was white as #{'show'}."
+
+In the above string, #{'show'} is not a variable it is just a word SHOW.
+variables will not have single-quotes around them.
+
+In ruby the double-quotes tells ruby to replace variable with values it finds with #{}.
+but the single-quotes tells ruby to leave the string along and ignore are variable inside it.
+
+print vs. puts : The primary difference between them is that puts adds a newline after executing, and print does not.
+
+------------------------------------------------------
+
+EX8: Printing, Printing
+
+format string with #{} or %{}
+
+you will almost always use #{} to format your strings, but there are times when you
+want to apply the same format to multiple values. That's when %{} comes in handy.
+
+formatter is just name of the variable, you can put anil if u want
+we can put the formatter inside the formatter.
+
+------------------------------------------------------
+
+EX9:
+
+\n to display string in new line.
+
+------------------------------------------------------
+
+EX10: What Was That?
+
+: Escape sequence by adding \ backslash to single & double quotes
+or just use triple quotes """  """ at the start and end of the string.
+
+Escape double-quote inside string by add \ in-front of double-quote
+puts "I am 6'2\" tall."
+
+Escape single-quote-quote inside string by add \ in-front of single-quote
+puts 'I am 6\'2" tall.'
+
+\t : for Horizontal tab effect for text
+\n : (backslash n) new line character
+\  : split single line and displays into two lines ex: persian_cat = "I'm split\non a line."
+     I'm split
+     on a line.
+\b : back space
+\f : form feed
+\r : carriage return
+\v : vertical tab
+\a : makes a bell noise
+
+cannot comment in the """ string
+cannot put #{} in '''
+
+Use ''' when you need a multi-line string that contains #{} formatting,
+.. but you don't want them to be processed yet or at all.
+
+Use """ for all other multi-line strings.
+
+------------------------------------------------------
+
+EX11: Asking Questions
+
+If you PRINT a statement and use gets.chomp in next step,
+it will prompt you to input at the end of statement
+
+If you use puts to display the statement and use gets.chomp in the next step,
+it will prompt you to input in the next line.
+
+we can use gets.chomp.to_i to get numbers as input to do math.
+
+gets : this method will wait till you enter the input, once you hit enter key, text entered
+will be passed to Variable as value. if you just use gets it will add newline (\n) automatically
+to the end of the string. ruby literally adds's newline once you hit enter key to the end of your input.
+
+.chomp : this method will avoid creation of newline (\n) that's why we use gets.chomp
+it displays all inputs enter to answer multiple questions with multiple enter key hits, in 1 line.
+
+------------------------------------------------------
+
+EX12: Prompting People for Numbers
+
+to take numbers as input, we can add .to_i to the gets.chomp and it will convert into integer.
+we can also save what gets.chomp returns, and call .to_i on that, ex: what we did with number = another.to_i
+
+Floating values: use gets.chomp.to_f to get floating values like ex: 10.30
+
+------------------------------------------------------
+
+Ex13: Parameters, Unpacking, Variables

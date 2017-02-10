@@ -4,6 +4,7 @@ months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 puts "Here are the days: #{days}"
 puts "Here are the months: #{months}"
 
+# even when q is removed from the below line, every thing works normal. 
 puts %q{
   There's some thing going on here.
   With the three double-qotes.

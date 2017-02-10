@@ -7,7 +7,7 @@ puts "Mary had a little lamb."
 
 puts "Its fleece was white as #{'show'}."
 puts "And every where that Mary went."
-puts "." * 10
+puts "." * 10 # this will print "." Ten times
 
 # Variable end.. declared on the left with value on the right.
 end1 = "C"
@@ -23,6 +23,6 @@ end10 = "g"
 end11 = "e"
 end12 = "r"
 
-# watch that print vs. puts on this line what does it do.
+# print vs. puts : The primary difference between them is that puts adds a newline after executing, and print does not.
 print end1 + end2 + end3 + end4 + end5 + end6
 puts end7 + end8 + end9 + end10 + end11 + end12

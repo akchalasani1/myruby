@@ -1,3 +1,5 @@
+#  $ruby ex14.rb anil chalasani
+
 =begin
 changing prompt to  what ever, will get it changed in all below prompt.
 for just one argument you need to use user_name = ARGV.first

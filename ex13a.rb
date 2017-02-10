@@ -1,3 +1,5 @@
+# $ruby ex13.rb first 2nd 3rds
+
 # you should use $stdin.gets.chomp from now on since the action get.chomp has
 # problems with ARGV.
 
@@ -11,7 +13,6 @@ puts "Your 1st favorite fruit is #{fruit1}"
 puts "Your 2nd favorite fruit is #{fruit2}"
 puts "Your 3rd favorite fruit is #{fruit3}"
 
-print "Do you have any other favorite fruit?"
+print "Do you have any other favorite fruit? "
 other_fruit = $stdin.gets.chomp
-
-puts = "You have a interesting 4th favorite fruit #{other_fruit} "
+puts "You have a interesting 4th favorite fruit : : #{other_fruit}"
