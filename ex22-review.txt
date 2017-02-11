@@ -236,3 +236,21 @@ Floating values: use gets.chomp.to_f to get floating values like ex: 10.30
 ------------------------------------------------------
 
 Ex13: Parameters, Unpacking, Variables
+
+You know how you type ruby ex13.rb to run the ex13.rb file? Well the ex13.rb part of the command is called an "argument."
+
+In first, second, third = ARGV   (first, second, third are variables)
+and ARGV is the "argument variable," This argument variable holds the arguments you pass to your Ruby script ($ruby ex13.rb first 2nd 3rds) when you run it.
+
+Line 1 "unpacks" ARGV so that, rather than holding all the arguments, it gets assigned to three variables you can work with: first, second, and third.
+It just says, "Take whatever is in ARGV, unpack it, and assign it to all of these variables on the left in order."
+
+Change your script to use $stdin.gets.chomp, from now on since the action gets.chomp has problems with ARGV.
+
+command line arguments come in as strings.
+
+for numbers use gets.chomp.to_i
+
+------------------------------------------------------
+
+Ex14: Prompting and Passing

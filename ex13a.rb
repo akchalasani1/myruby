@@ -15,4 +15,5 @@ puts "Your 3rd favorite fruit is #{fruit3}"
 
 print "Do you have any other favorite fruit? "
 other_fruit = $stdin.gets.chomp
+#other_fruit = $stdin.gets.chomp.to_i  # for numbers 
 puts "You have a interesting 4th favorite fruit : : #{other_fruit}"
