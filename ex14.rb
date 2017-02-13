@@ -6,9 +6,10 @@ for just one argument you need to use user_name = ARGV.first
 for multiple argument you need to use a, b, c = ARGV
 =end
 
-#user_name = ARGV.first # gets the first argument
+#user_name = ARGV.first   # gets the first argument
 first_name, last_name = ARGV
-prompt = '+> '
+prompt = '+>> '
+#prompt = "> "
 
 puts "Hi #{first_name} #{last_name}."
 puts "I'd like to ask you a few questions."
@@ -16,6 +17,7 @@ puts "Do you like me #{first_name} #{last_name}? "
 puts prompt
 likes = $stdin.gets.chomp
 
+# a comma for puts is like using puts twice
 puts "Where do you live #{first_name} #{last_name}? ", prompt
 lives = $stdin.gets.chomp
 

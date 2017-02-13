@@ -1,3 +1,9 @@
+5 Reasons You Should Use ri To Read Ruby Documentation
+help in ruby -> ri open
+http://www.jstorimer.com/blogs/workingwithcode/7766081-5-reasons-you-should-use-ri-to-read-ruby-documentation
+
+------------------------------------------------------
+
 EX1: Printing
 
 $ ruby -v : to check ruby version.
@@ -235,7 +241,7 @@ Floating values: use gets.chomp.to_f to get floating values like ex: 10.30
 
 ------------------------------------------------------
 
-Ex13: Parameters, Unpacking, Variables
+EX13: Parameters, Unpacking, Variables
 
 You know how you type ruby ex13.rb to run the ex13.rb file? Well the ex13.rb part of the command is called an "argument."
 
@@ -253,4 +259,107 @@ for numbers use gets.chomp.to_i
 
 ------------------------------------------------------
 
-Ex14: Prompting and Passing
+EX14: Prompting and Passing
+
+when using one command line argument only use this format:
+ex: ARGV.first   (first can be changed to anything)
+
+when using multiple command line arguments you can use this format:
+ex: first, second, third = ARGV [or] first, second = ARGV
+
+we have declared the variable prompt with sting '> '  or you can use double quotes
+ex: prompt = "> "
+later in the script when we asked a question we waited with prompt for user input.
+ex: puts prompt  rather than typing prompt = '>' ins the script again and again.
+
+A comma for puts is like using puts twice
+we can also write puts like this ex: puts "Where do you live #{user_name}", prompt
+
+Since there is ARGV (argument variable) in this script, we are using stdin.gets.chomp
+instead of just gets.chomp
+
+we have used """ style to write multiline string with #{} format activator.
+
+------------------------------------------------------
+
+EX15: Reading Files
+
+when we execute ex15.rb file, ex15.rb will read text from ex15_sample.txt file and print it out.
+ex15.rb will "open" ex15_sample.txt into our script and print it out.
+
+we are not "hard coding" ex15_sample.txt into ex15.rb,
+since we want flexibility of calling any file.
+
+solution is to use ARGV or gets.chomp to ask the user what file to open instead of
+"hard coding" the file's name in ex15.rb
+
+since we are asking to enter only one file name in command line argument,
+we are using filename = ARGV.first
+
+***** txt = open(filename)
+"open" will open the file ex15_sample.txt into ex15.rb but not the file contents,
+it actually makes something called a "file object".
+file object is like a dvd player but not a dvd.
+
+puts "Here's your file #{filename}:" will print name of the file.
+
+"Read" reads the content of the file. you can assign the result to a variable.
+"read" is a function that we called on txt, by using open in txt = open(filename)
+we get the file into txt. file(txt) also have commands you can give it, you give a file a
+command by using the . (dot or period), the name of the command, and parameters.
+just like open(filename) open is the command and (filename) is the parameter.
+just like gets.chomp where gets.chomp is the command and chomp is the parameter.
+
+In txt.read txt is the file and read is the command, function or method,
+the difference is that txt.read says, "Hey txt ! Do your read command
+with NO parameters!"
+
+ruby will not restrict you from opening a file more than once. sometimes this is required.
+
+filename = ARGV.first or filename = gets.chomp which way is better?
+If we are writing automation script,
+by using ARGV we can give the file name at the start as argument and let the script run for 1000 times.
+if we give the file name in the middle with gets.chomp some one should be there to give 1000 times.
+
+------------------------------------------------------
+
+EX16: Reading and writing files
+
+commands(methods/functions) that can be given to files.
+close -- Closes the file. like File -> Save.. in your editor
+read -- Reads the contents of the file. you can assign the result to a variable.
+readline -- Reads just one line of a text file.
+truncate -- Empties the file. Watch out if you care about the file.
+write('stuff') -- Writes "stuff" to the file.
+
+some of the above commands take parameters, but we do not care about that.
+write takes a parameter of a string you want to write to the file.
+
+$stdin.gets creates one line empty space in command line.
+
+target.write(line1 + "\n" + line2 + "\n" + line3 + "\n")
+# one line to cut the repetition in script ex16.rb line 44 to 49.
+
+Find out why we had to pass a 'w' as an extra parameter to open.
+Hint: open tries to be safe by making you explicitly say you want to write a file.
+[By us asking to write a file, it in addition to making sure we are writing
+to the file also physically creates the file in the same step]
+
+If you open the file with 'w' mode, then do you really need the target.truncate()?
+[I commented out the option for target truncate, and the script worked the same.
+So no, it is not necessary to run the truncate command if we open the file with 'w' access.
+The danger of course is that we will wipe out whatever is in there,
+which might not be our goal. Here's where it pays to make sure :). ]
+
+'w' write mode
+'r' read mode
+'a' for append
+
+modifiers to the file modes can i use?
+most important one to know for now is the + modifier
+'w+', 'r+' and 'a+' . This will open the file in both read and write mode,
+and depending on the character use position the file in different ways.
+
+open(filename) open's it in 'r' (read) mode by default, for the open() function.
+
+------------------------------------------------------
