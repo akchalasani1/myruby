@@ -1,4 +1,5 @@
 # $ ruby ex16.rb 16_a_test.txt
+# we can give .txt file name as argument to create a new .txt file while executing.
 # [By us asking to write a file, it in addition to making sure we are writing
 # to the file also physically creates the file in the same step]
 =begin
@@ -15,7 +16,7 @@ puts "If you don't want that, hit CTRL-C (^C)."
 puts "If you do want that, hit RETURN."
 
 $stdin.gets  # creates empty line space
-#open(filename) open's it in 'r' (read) mode by default, for the open() function. 
+#open(filename) open's it in 'r' (read) mode by default, for the open() function.
 puts "Opening the file... #{filename}"
 target = open(filename, 'w' ) # file name with extra 'w' parameter
 # 'w' is just a string with a character in it for the kind of mode for the file.

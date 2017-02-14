@@ -338,12 +338,14 @@ write takes a parameter of a string you want to write to the file.
 $stdin.gets creates one line empty space in command line.
 
 target.write(line1 + "\n" + line2 + "\n" + line3 + "\n")
-# one line to cut the repetition in script ex16.rb line 44 to 49.
+# one line to cut the repetition in script ex16.rb line 45 to 50.
 
 Find out why we had to pass a 'w' as an extra parameter to open.
 Hint: open tries to be safe by making you explicitly say you want to write a file.
 [By us asking to write a file, it in addition to making sure we are writing
 to the file also physically creates the file in the same step]
+
+* 'w' will create a new file if 6_a_test.txt is given as argument, if it doesn't exists.
 
 If you open the file with 'w' mode, then do you really need the target.truncate()?
 [I commented out the option for target truncate, and the script worked the same.
@@ -363,3 +365,5 @@ and depending on the character use position the file in different ways.
 open(filename) open's it in 'r' (read) mode by default, for the open() function.
 
 ------------------------------------------------------
+
+EX17: More Files

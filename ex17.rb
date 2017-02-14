@@ -1,3 +1,6 @@
+# $ ruby ex17.rb ex17_from_test.txt ex17_to_test.txt
+# we can give .txt file name as argument to create a new .txt file while executing.
+
 # write a ruby script to copy one file to another.
 # "commands" are just "functions" and "methods" ex: open, exists.
 

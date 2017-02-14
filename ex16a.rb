@@ -1,3 +1,5 @@
+# $ ruby ex16a.rb 16_a_test.txt
+
 newfile = ARGV.first
 txt = open (newfile)
 
