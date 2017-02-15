@@ -2,14 +2,14 @@
 # we can give .txt file name as argument to create a new .txt file while executing.
 # "commands" are just "functions" and "methods" ex: open, exists, read.
 # created a variable and made the value ARGV argument, so user can enter.
-filename = ARGV.first
+filename = ARGV.first # gets the first argument
 # by using ARGV we can give the file name at the start and let the script run
 #for 1000 times, if we give the file name in the middle with gets.chomp some one should be there to give 1000 times.
 # filename = gets.chomp
 # using a method /funtion open to open the given file name.
 txt = open(filename)
 # displaying the name of the file name to user.
-puts "Here's your file #{filename}:"
+puts "Here's your file...  #{filename}:"
 # we are calling a function read on txt.
 # What you get back from open is a file, and it also has commands you can give it.
 # you give a file a command by using the . (dot or period), the name of the command,

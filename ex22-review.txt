@@ -367,3 +367,21 @@ open(filename) open's it in 'r' (read) mode by default, for the open() function.
 ------------------------------------------------------
 
 EX17: More Files
+
+we will transfer content from from_file to to_file.
+
+we can give .txt file name as argument to create a new .txt file while executing.
+
+we are creating a variable in_file and calling file object with open function for from_file.
+creating a variable indata and moving content of file (in_file) into indata with in_file.read (read) function.
+
+#{indata.length} length tells us how many bytes long is the content in the file.
+
+#{File.exists?(to_file)} tells us true / false based on file exists on the disk or not.
+
+$stdin.gets waits for your input in command prompt. once you hit enter or Ctrl + C to quit.
+
+we create a new variable out_file and calling file object with open function for to_file with 'w' write mode.
+we are writing into to_file(out_file) with out_file.write(indata)  indata(from_file)
+
+then we are closing out_file and in_file other wise they get eligible for garbage collection. 

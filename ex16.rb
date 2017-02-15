@@ -9,13 +9,13 @@
  The file pointer starts at the beginning of the file. The file, if it exists, is overwritten.
   Otherwise, a new file is created.
 =end
-filename = ARGV.first
+filename = ARGV.first # gets the first argument
 
 puts "We're going to erase #{filename}"
 puts "If you don't want that, hit CTRL-C (^C)."
 puts "If you do want that, hit RETURN."
 
-$stdin.gets  # creates empty line space
+$stdin.gets  # creates empty line space and wait's for your input
 #open(filename) open's it in 'r' (read) mode by default, for the open() function.
 puts "Opening the file... #{filename}"
 target = open(filename, 'w' ) # file name with extra 'w' parameter

@@ -1,4 +1,5 @@
 #  $ruby ex14.rb anil chalasani
+#  $ruby ex14.rb anil 
 
 =begin
 changing prompt to  what ever, will get it changed in all below prompt.
@@ -6,8 +7,8 @@ for just one argument you need to use user_name = ARGV.first
 for multiple argument you need to use a, b, c = ARGV
 =end
 
-#user_name = ARGV.first   # gets the first argument
-first_name, last_name = ARGV
+user_name = ARGV.first   # gets the first argument
+# first_name, last_name = ARGV
 prompt = '+>> '
 #prompt = "> "
 

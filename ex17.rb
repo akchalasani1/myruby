@@ -1,8 +1,8 @@
-# $ ruby ex17.rb ex17_from_test.txt ex17_to_test.txt
+  # $ ruby ex17.rb ex17_from_test.txt ex17_to_test.txt
 # we can give .txt file name as argument to create a new .txt file while executing.
 
 # write a ruby script to copy one file to another.
-# "commands" are just "functions" and "methods" ex: open, exists.
+# "commands" are just "functions" and "methods" ex: open, exists, read.
 
 from_file, to_file = ARGV
 
@@ -16,7 +16,7 @@ puts "The input file is #{indata.length} bytes long"
 # File.exist?(to_file) is a function that tells us if the file exists on the disk.
 puts "Does the output file exists? #{File.exist?(to_file)}"
 puts "Ready, hit RETURN to countinue, CTRL-C to abort."
-$stdin.gets
+$stdin.gets # creates empty line space and wait's for your input
 
 out_file = open(to_file, 'w')
 out_file.write(indata)
