@@ -1,5 +1,5 @@
 # varibles declared
-
+#Function/ Variables name should not start with number but with letters, numbers and underscores will work. 
 # we have assigned 100 to varible cars
 cars = 100
 

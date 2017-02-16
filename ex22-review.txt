@@ -82,6 +82,7 @@ The result of % is the remaining part 4.
 ------------------------------------------------------
 
 EX4: Variables And Names
+Function/ Variables name should not start with number but with letters, numbers and underscores will work.
 
 variable is any line of code where you set a name = (equal) to a value.
 In programming a variable is nothing more than a name for something.
@@ -246,7 +247,7 @@ EX13: Parameters, Unpacking, Variables
 You know how you type ruby ex13.rb to run the ex13.rb file? Well the ex13.rb part of the command is called an "argument."
 
 In first, second, third = ARGV   (first, second, third are variables)
-and ARGV is the "argument variable," This argument variable holds the arguments you pass to your Ruby script ($ruby ex13.rb first 2nd 3rds) when you run it.
+and ARGV is the "command line Argument," This command line Argument holds the arguments you pass to your Ruby script ($ruby ex13.rb first 2nd 3rds) when you run it.
 
 Line 1 "unpacks" ARGV so that, rather than holding all the arguments, it gets assigned to three variables you can work with: first, second, and third.
 It just says, "Take whatever is in ARGV, unpack it, and assign it to all of these variables on the left in order."
@@ -262,7 +263,9 @@ for numbers use gets.chomp.to_i
 EX14: Prompting and Passing
 
 when using one command line argument only use this format:
-ex: ARGV.first   (first can be changed to anything)
+ex: ARGV.first    # gets the first argument
+
+# for now just remember that you use ARGV.first to get only one argument.
 
 when using multiple command line arguments you can use this format:
 ex: first, second, third = ARGV [or] first, second = ARGV
@@ -275,7 +278,7 @@ ex: puts prompt  rather than typing prompt = '>' ins the script again and again.
 A comma for puts is like using puts twice
 we can also write puts like this ex: puts "Where do you live #{user_name}", prompt
 
-Since there is ARGV (argument variable) in this script, we are using stdin.gets.chomp
+Since there is ARGV (command line Argument) in this script, we are using stdin.gets.chomp
 instead of just gets.chomp
 
 we have used """ style to write multiline string with #{} format activator.
@@ -283,6 +286,8 @@ we have used """ style to write multiline string with #{} format activator.
 ------------------------------------------------------
 
 EX15: Reading Files
+
+# for now just remember that you use ARGV.first to get only one argument.
 
 when we execute ex15.rb file, ex15.rb will read text from ex15_sample.txt file and print it out.
 ex15.rb will "open" ex15_sample.txt into our script and print it out.
@@ -384,4 +389,52 @@ $stdin.gets waits for your input in command prompt. once you hit enter or Ctrl +
 we create a new variable out_file and calling file object with open function for to_file with 'w' write mode.
 we are writing into to_file(out_file) with out_file.write(indata)  indata(from_file)
 
-then we are closing out_file and in_file other wise they get eligible for garbage collection. 
+then we are closing out_file and in_file other wise they get eligible for garbage collection.
+
+------------------------------------------------------
+
+To Call/Use/Run a Function all mean the same thing.
+Function/ Variables name should not start with number but with letters, numbers and underscores will work.
+EX18: Names, Variables, Code, Functions
+
+Functions do 3 things:
+1. They name pieces of code the way variables names strings and numbers.
+2. They take arguments the way your scripts take ARGV (command line Argument).
+3. Using 1 & 2 they (Functions) let you make your own "mini-scripts" or "tiny commands".
+
+we create Functions by using the word def (define) in Ruby.
+
+* It is not mandatory to pass values into ()parenthesis for argument in function.
+
+def print_two(*args)  <-- This is like your scripts with ARGV(command line Argument)
+First indented line is one that unpacks the arguments the same as with your scripts.
+we named the function "print_two" or call doesn't matter.
+it is better to have functions with short names, that says what it does.
+*args (asterisk args), is lot like your ARGV parameter. (command line argument)
+but for functions asterisk tells ruby to take all arguments to the function and put them in args as a list.
+it's like ARGV that you've been using, but for functions, it's not normally used too often unless specifically needed.
+
+arg1, arg2 = args <-- unpacked arguments will be passed to variables arg1 & arg2.
+and we print them with puts(variable) with #{arg1}.
+print_two("anil","kumar")
+#{} is how you insert Ruby computations into text strings.
+
+print_two is not the easiest way to make a function.
+
+In ruby we can skip the whole unpacking arguments and just use the names
+we want right inside(). that's what print_two_again does.
+
+# Easy way to define a function
+
+def print_two_again(arg1, arg2)
+  puts "arg1: #{arg1}, arg2: #{arg2}"
+end
+
+print_two_again("anil","kumar")
+
+This is the way how you create your own functions in Ruby and use in your scripts.
+like exists, open, read etc...
+
+------------------------------------------------------
+
+EX19: Functions and Variables
