@@ -32,7 +32,7 @@ git add . && git commit -am "comment" (works for new files and modified)
 
 git fetch && git checkout <branch> ( To Switch branch from master to branch)
 
-
+$ git branch -d test_branch (make sure you are not in the same branch)
 
 #### Git Features ####
 Anils-MacBook-Air:myruby anil$ git config --global --edit
