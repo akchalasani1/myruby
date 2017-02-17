@@ -12,7 +12,8 @@ git branch (show if you are on master or branch)
 
 git merge master ( merging the latest on the branch to master, from branch)
 
-git merge --no-ff <branch>  ( fast forward )
+git merge --no-ff <branch>  ( fast forward only when master has same code as branch + new code on branch )
+(If some stuff on master(in a file) is totally different from branch(in a file) no --no-ff required)
 
 git checkout -b <branch> (to create a new branch)
 
@@ -26,7 +27,7 @@ git diff (show the differences done to each file)
 
 git clone https://github.com/akchalasani1/myruby.git (download the repo to your local folder)
 
-git commit -am “comment”  (doesn't work if new file ADDING only for modified)
+git commit -am “comment”  (doesn't work if new file ADDING, only works for existing files to modifying)
 
 git add . && git commit -am "comment" (works for new files and modified)
 

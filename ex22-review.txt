@@ -473,3 +473,5 @@ Can you call a function within a function?
 YES
 
 ------------------------------------------------------
+
+EX20: Functions and Files
