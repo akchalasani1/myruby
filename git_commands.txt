@@ -10,7 +10,7 @@ git status (show what's new or modified files)
 
 git branch (show if you are on master or branch)
 
-git merge <branch> ( merging the latest on the branch to master)
+git merge master ( merging the latest on the branch to master, from branch)
 
 git merge --no-ff <branch>  ( fast forward )
 
