@@ -10,7 +10,7 @@ git status (show what's new or modified files)
 
 git branch (show if you are on master or branch)
 
-git merge <branch> ( merging the latest on the branch to master)
+git merge master ( merging the latest on the branch to master, from branch)
 
 git merge --no-ff <branch>  ( fast forward )
 
@@ -18,7 +18,7 @@ git checkout -b <branch> (to create a new branch)
 
 git checkout master  ( to switch to master )
 
-git checkout <branch> ( to switch to branch )
+git checkout <branch> ( to switch to branch or creates if it doesn't exists )
 
 git log or git lg1 (to check the logs of commits done)
 
@@ -32,7 +32,14 @@ git add . && git commit -am "comment" (works for new files and modified)
 
 git fetch && git checkout <branch> ( To Switch branch from master to branch)
 
-$ git branch -d test_branch (make sure you are not in the same branch)
+git branch -d test_branch (make sure you are not in the same branch)
+Delete the specified branch. This is a “safe” operation in that Git prevents you from deleting the branch if it has un-merged changes.
+
+git branch -D <branch>
+Force delete the specified branch, even if it has unmerged changes. This is the command to use if you want to permanently throw away all of the commits associated with a particular line of development.
+
+git branch -m <branch>
+Rename the current branch to <branch>.
 
 #### Git Features ####
 Anils-MacBook-Air:myruby anil$ git config --global --edit
