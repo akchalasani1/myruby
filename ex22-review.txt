@@ -439,4 +439,37 @@ like exists, open, read etc...
 
 EX19: Functions and Variables
 
-This is my branch stuff.
+we can pass straight numbers as values to function.
+cheese_and_crackers(20, 30)
+
+we can pass variables to function.
+amount_of_cheese = 10
+amount_of_crackers = 50
+cheese_and_crackers(amount_of_cheese, amount_of_crackers)
+
+we can give it(function) math.
+cheese_and_crackers(10 + 20, 5 + 6)
+
+we can even combine math and variables and pass it to function.
+cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+
+# In a way, the Argument to a function is like, = character when we make a variable.
+# If you can use = to name something, you can usually pass it to a function as a argument.
+
+If you want to ask user, use .to_i to convert what you get from gets.chomp
+
+Does making the variable amount_of_cheese change the variable(argument) cheese_count in the function?
+NO, those variable are separate and live outside the function. They are then passed to the
+function and temporary versions are made just for the function's run. when the function exits
+these temporary variables go away and everything keeps working.
+
+It is bad to have GLOBAL Variables (like amount_of_cheese) with the same name as function variables(argument).
+since then you're not quite sure which one you're talking about.
+
+Is there a limit to the number of arguments a function can have?
+It is fairly large, The Practical limit is about five arguments before the function becomes annoying to use.
+
+Can you call a function within a function?
+YES
+
+------------------------------------------------------
