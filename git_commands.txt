@@ -28,6 +28,7 @@ git diff (show the differences done to each file)
 git clone https://github.com/akchalasani1/myruby.git (download the repo to your local folder)
 
 git commit -am “comment”  (doesn't work if new file ADDING, only works for existing files to modifying)
+am = add and message
 
 git add . && git commit -am "comment" (works for new files and modified)
 
