@@ -1,5 +1,9 @@
+# $ ruby ex20.rb ex20_test.txt
+
 # Functions and Files
+
 =begin
+http://www.jstorimer.com/blogs/workingwithcode/7766081-5-reasons-you-should-use-ri-to-read-ruby-documentation
 ri is a tool that ships with Ruby. It's a companion to rdoc, allowing you to
 'display information about Ruby classes, modules, and methods' from your console.
 Despite its usefulness it's often overlooked in favour of searching Google.
@@ -19,10 +23,16 @@ That means x = x + y is the same as x += y .
 
 input_file = ARGV.first
 
+# f is just an argument or functional variable, you can use any letter or word if you want.
+#  It has a "read head," and you can "seek" this read head around the file to positions, then work with it there. Each time you do f.seek(0) you're moving to the start of the file.
+# Each time you do f.read, you're reading a line from the file (input_file (ex: ex20_test.txt)), and moving the read head to right side, after the \n that ends that line. \n means new line.
+#print_all function will print All lines in the file(input_file (ex: ex20_test.txt)).
 def print_all(f)
   puts f.read
 end
+
 =begin
+It has a "read head," and you can "seek" this read head around the file to positions, then work with it there. Each time you do f.seek(0) you're moving to the start of the file.
 It seeks ("goes to", "attempts to find") a given position (as integer) in a stream.
 In your code you define a new method called rewind which takes one argument.
 When you call it with ---->  rewind(current_file)
@@ -43,15 +53,21 @@ def rewind(f)
   f.seek(0)
 end
 
-# f is the input file object, so f.gets eads from the file until it encounters a newline (\n)
-# character The newline character is read, but nothing more. chomp chomps off the newline character.
+# f just argument ex: ex18.rb or functional variable, it will carry the file object for(input_file (ex: ex20_test.txt)), , you can use any letter or word if you want.
+# so f.gets takes or copies the 1st line from(input_file (ex: ex20_test.txt)) until it encounters a newline or end of the 1st line, then it stops.
+# If you just use (.gets) it will add newline(\n) character automatically to the end of the string.
+# (.chomp) avoid's creation of the newline, ignores (\n) character which was automatically created by ruby when gets is used.
+# when you use (gets.chomp) to ask user input, user will answer and hit enter, in the same way f.gets will copie 1 new line from file(input_file (ex: ex20_test.txt)) each time it uses print_a_line function.
 def print_a_line(line_count, f)
-  puts "#{line_count}, #{f.gets.chomp}"
+  puts "#{line_count}, #{f.gets}"
 end
+
+# current_line from bottom will pass value to line_count functional variable or argument. so the line_count prints 1, 2, 3,....
+# current_file will pass value to functional variable or argument (f).
 
 current_file = open(input_file)
 
-puts "First let's print the whole file:\n"
+puts "\nFirst let's print the whole file:"
 
 print_all(current_file)
 
@@ -64,8 +80,10 @@ puts "\nlet's print three lines:"
 current_line = 1
 print_a_line(current_line , current_file)
 
-current_line = current_line += 1
+current_line = current_line + 1
+# current_line += 1
 print_a_line(current_line , current_file)
 
-current_line = current_line += 1
+#current_line = current_line + 1
+current_line += 1 # gives same result as above when using += shorthand notation.
 print_a_line(current_line , current_file)
