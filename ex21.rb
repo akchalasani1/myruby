@@ -1,12 +1,12 @@
 =begin
-These are ANIL new changes +:)
+
 Start from the inside and work out.
 Divide iq by 2. Multiply that by weight. Subtract that from height. Add that to age.
 In general, with nested parentheses, you always start from the innermost.
 
 The purpose of parentheses in this type of formula is to manage the order that the operations occur,
-if you need that to be different than standard order (standard order is multiplication and division,
- left to right, and then addition and subtraction, left to right).
+Note: order of operations is PEMDAS (ex: please excuse my dear aunt sally)
+(standard order is multiplication and division,left to right, and then addition and subtraction, left to right).
 =end
 
 def add(a, b)
@@ -15,7 +15,7 @@ def add(a, b)
 end
 
 def subtract( a, b)
-  puts "SUBSTRACTING #{a} - #{b}"
+  puts "SUBTRACTING #{a} - #{b}"
   return a - b
 end
 
@@ -29,7 +29,7 @@ def divide(a, b)
   return a / b
 end
 
-puts "Let's do some math with just functions!"
+puts "\nLet's do some math with just functions!"
 
 age = add(30, 5)
 height = subtract(78, 4)
@@ -40,12 +40,12 @@ puts "Age: #{age}, Height: #{height}, Weight: #{weight}, IQ: #{iq}"
 
 # A puzzle for the extra credit, type it in anyway
 
-puts "Here is the puzzle."
+puts "\nHere is the puzzle."
 
 # putting raw number's as per the study drill
 # what = 74 - 50 / 2 * 180 + 35
 
-what = (height - iq / 2 * weight + age)
-#what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
+#what = (height - iq / 2 * weight + age)
+what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 puts "That becomes: #{what}. Can you do it by hand?"

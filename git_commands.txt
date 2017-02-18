@@ -1,6 +1,20 @@
+git clone https://github.com/akchalasani1/myruby.git (download the repo to your local folder)
+
+Your editor
+$ git config  - -global core.editor atom. (Atom or what ever text editor you like sub lime)
+
+---------------------------------------------------
+
 git add -A  ( to add all files to staging)
 
-git commit -m (saving them on staging)
+git add . (if adding only 1 file with changes, if there are more files with changes git add -A for all, git add filename for specific one)
+
+git commit -m (saving changes or staging changes to a file, for git push)
+
+git commit -am “comment”  (doesn't work if new file ADDING, only works for existing files to modifying)
+am = add and message
+
+git add . && git commit -am "comment" (works for new files and modified)
 
 git push (push the latest files to repo)
 
@@ -8,29 +22,38 @@ git pull (pulls the latest stuff)
 
 git status (show what's new or modified files)
 
-git branch (show if you are on master or branch)
-
-git merge master ( merging the latest on the branch to master, from branch)
-
-git merge --no-ff <branch>  ( fast forward )
-
-git checkout -b <branch> (to create a new branch)
-
-git checkout master  ( to switch to master )
-
-git checkout <branch> ( to switch to branch or creates if it doesn't exists )
-
-git log or git lg1 (to check the logs of commits done)
+git log (to check the logs of commits done)
 
 git diff (show the differences done to each file)
 
-git clone https://github.com/akchalasani1/myruby.git (download the repo to your local folder)
+git branch (show if you are on master or branch)
 
-git commit -am “comment”  (doesn't work if new file ADDING only for modified)
+git branch <name> (to create a new branch, give branch name with out < >)
 
-git add . && git commit -am "comment" (works for new files and modified)
+git checkout <branch> ( to switch to newly created or existing branch, give branch name with out < > )
+
+git checkout -b <branch> (to create a new branch and get into that branch)
+
+git checkout master  ( to switch to master from branch )
 
 git fetch && git checkout <branch> ( To Switch branch from master to branch)
+
+
+git merge master ( merging the latest on the branch to master, from branch)
+
+git merge --no-ff <branch>  ( fast forward only when master has same code as branch + new code on branch )
+(If some stuff on master(in a file) is totally different from branch(in a file) no --no-ff required)
+
+
+#### Only works if Git Features is installed ####
+git log or git lg (to check the logs of commits done)
+
+git log or git lg1 (to check the logs of commits done)
+
+git log or git lg2 (to check the logs of commits done)
+
+git log or git lg3 (to check the logs of commits done)
+
 
 git branch -d test_branch (make sure you are not in the same branch)
 Delete the specified branch. This is a “safe” operation in that Git prevents you from deleting the branch if it has un-merged changes.
@@ -40,6 +63,8 @@ Force delete the specified branch, even if it has unmerged changes. This is the 
 
 git branch -m <branch>
 Rename the current branch to <branch>.
+
+---------------------------------------------------
 
 #### Git Features ####
 Anils-MacBook-Air:myruby anil$ git config --global --edit
@@ -60,7 +85,9 @@ Additionally you an alias:
 Then you can use it like this:
 git ac "commit message"
 
+---------------------------------------------------
+https://github.com/robbyrussell/oh-my-zsh
+Install oh-my-zsh through terminal
 
-Your editor
-
-$ git config  - -global core.editor atom. (Atom or what ever text editor you like sub lime)
+➜  ~ ls -la (after installing, go to new terminal tab and do ls -la)
+➜  ~ nano .zshrc  (go to .zshrc file to change themes and plugins)
