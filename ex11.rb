@@ -28,11 +28,11 @@ puts "So, you're #{age} years old, #{height} tall and #{weight} heavy."
 
 print "Which country do you live in? "
 country = gets.chomp
-print "Which state? "
+puts "Which state? "
 state = gets.chomp
 print "Which city? "
 city = gets.chomp
-print "From Year?"
+puts "From Year?"
 year = gets.chomp
 
 puts "So, you live in #{country} at the state of #{state}, city is #{city} from #{year} "

@@ -3,6 +3,9 @@
 #  You embed variables inside a string by using a special #{}
 #  sequence and then put the variable you want inside the {} characters.
 
+# '' - variable can't be called into single quotes with #{} into other variable ex: greeting = 'Hello, #{name}' . since it expects only characters as a string not other variable.
+# "" - In double quotes you can write a string as well as call other variable with #{}.
+
 name = 'anil K. Chalasani'
 age = 36 # not a lie in 2009
 height = 72 # inches

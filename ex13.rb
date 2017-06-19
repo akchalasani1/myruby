@@ -14,6 +14,9 @@ it gets assigned to three variables you can work with: first, second and third.
 This may look strange, but "unpack" is probably the best workd to describe what it does.
 It just says, "Take whatever is in ARGV, uppack it, and assign it to all of these variables
 on the left in order." After that we just print them out like normal.
+
+(you can rename first, second, third to any name you want)
+If you do not include all the command line arguments then it will leave the last variable empty.
 =end
 
 # run ruby script with command line argument, EVERY TIME when you see ARGV in any script.

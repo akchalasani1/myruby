@@ -18,13 +18,17 @@ characters and Ruby will run it and put the result there instead of those charac
 =end
 puts "I will now count my chickens:"
 
+# The order of operations dictates Division happens before Addition.
+# 25 + (30 / 6) == 25 + 5 == 30
 puts "Hens: #{25 + 30 / 6}"
 
-
+# Order of operation again 100 - (25 * 3 % 4) == 100 - 3 == 97
 puts "Roosters: #{100 - 25 * 3 % 4}"
 
-
 puts "Now I will count the eggs:"
+
+# Order of operations break out gives us
+# 3+2+1-5+(4%2)-(1/4)+6  == 6-5+0-0+6 == 1+6 == 7
 
 # There are no fractions, only whole numbers.
 # You need to use a "floating point" number
@@ -34,19 +38,14 @@ puts "Now I will count the eggs:"
 #puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
 
 
+# 3+2 == 5, 5-7 == -2. so 5 > -2.
 puts "Is it true that 3 + 2 < 5 - 7?"
-
-
 puts 3 + 2 < 5 - 7
-
 
 puts "What is 3 + 2? #{3 + 2}"
 puts "What is 5 - 7? #{5 - 7}"
 
-
 puts "Oh, that's why it's false."
-
-
 puts "How about some more."
 
 puts "Is 5 > -2 greater ? #{5 > -2}"
