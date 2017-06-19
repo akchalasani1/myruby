@@ -22,8 +22,9 @@ out_file = open(to_file, 'w')
 out_file.write(indata)
 
 puts "Alright, all done."
-# If out_file is not closed.
+# If out_file & in_file is not closed.
 # A File object which is no longer referenced becomes eligible for garbage collection.
 # The file will be closed automatically when the File object is garbage collected.
+# close = File + Save
 out_file.close
 in_file.close

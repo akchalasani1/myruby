@@ -1,10 +1,10 @@
 # varibles declared
-#Function/ Variables name should not start with number but with letters, numbers and underscores will work. 
+#Function/ Variables name should not start with number but with letters, numbers and underscores will work.
 # we have assigned 100 to varible cars
 cars = 100
 
 # we have assigned 4 to varible space_in_a_car
-space_in_a_car = 4
+space_in_a_car = 4.0
 
 # we have assigned 30 to varible drivers
 drivers = 30

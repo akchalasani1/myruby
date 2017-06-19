@@ -63,6 +63,14 @@ The use of #{3+2} in the code above is how you insert Ruby computations(the acti
 You can put anything that is Ruby code between the { (left-bracket) and } (right-bracket)
 characters and Ruby will run it and put the result of 3 + 2 there instead of those characters #{ } .
 
+# The order of operations dictates Division happens before Addition.
+# 25 + (30 / 6) == 25 + 5 == 30
+
+# Order of operation again 100 - (25 * 3 % 4) == 100 - 3 == 97
+
+# Order of operations break out gives us
+# 3+2+1-5+(4%2)-(1/4)+6  == 6-5+0-0+6 == 1+6 == 7
+
 puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
 above code displays 7 as the result once run,
 since it's order of operations is PEMDAS
@@ -73,6 +81,10 @@ which is a number with a decimal point, as in 10.5, or 0.89, or even 3.0.
 puts 3 + 2 + 1 - 5 + 4 % 2 - 0.1 / 4 + 6  displays result as 6.975
 puts 3 + 2 + 1 - 5 + 4 % 2 - 1.0 / 4 + 6  displays result as 6.75
 
+# 3+2 == 5, 5-7 == -2. so 5 > -2.
+puts "Is it true that 3 + 2 < 5 - 7?"
+puts 3 + 2 < 5 - 7
+
 % character a "modulus" and not a "percent"
 In programming this calculation is typically done with simple division and the / operator.
 The % modulus is a different operation that just happens to use the % symbol.
@@ -82,7 +94,7 @@ The result of % is the remaining part 4.
 ------------------------------------------------------
 
 EX4: Variables And Names
-Function/ Variables name should not start with number but with letters, numbers and underscores will work.
+Function/ Variables names should not start with number but they can start with letters, followed by numbers and underscores will work.
 
 variable is any line of code where you set a name = (equal) to a value.
 In programming a variable is nothing more than a name for something.
@@ -105,6 +117,11 @@ The == (double-equal) tests if two things have the same value.
 # variables can be called into the string " " with #{ }
 puts "There are #{cars} cars available."
 
+ERROR: when you don't declare variable and try to use it in puts you get below error.
+ex4.rb:14: undefined local variable or method `carpool_capacity' for
+    main:Object (NameError)
+
+comment this line in ex4.rb to get above error: carpool_capacity = cars_driven * space_in_a_car
 
 ------------------------------------------------------
 
@@ -126,6 +143,22 @@ puts "Do you know, i am #{my_age} years old." : displays the value from variable
 puts "If I add #{my_age}, #{my_height}, and #{my_weight} I get #{my_age + my_height + my_weight}."
 In the above line values of (my_age, my_height, my_weight) variables are displayed and then addition of the values in the three variables.
 
+# '' - variable can't be called into single quotes with #{} into other variable ex: greeting = 'Hello, #{name}' . since it expects only characters as a string not other variable.
+# "" - In double quotes you can write a string as well as call other variable with #{}.
+
+
+single-quoted strings don't process ASCII escape codes and they don't do string interpolation.
+name = 'Joe'
+greeting = 'Hello, #{name}' # this won't produce "Hello, Joe"
+puts "This is: #{greeting}"
+
+" " allows you to do string interpolation, e.g.:
+world_type = 'Mars'
+"Hello #{world_type}"
+
+except the interpolation, another difference is that 'escape sequence' does not work in single quote
+puts 'a\nb' # just print a\nb
+puts "a\nb" # print a, then b at newline
 ------------------------------------------------------
 
 EX6: Strings and Text
@@ -193,11 +226,12 @@ puts "I am 6'2\" tall."
 Escape single-quote-quote inside string by add \ in-front of single-quote
 puts 'I am 6\'2" tall.'
 
-\t : for Horizontal tab effect for text
+\t : for Horizontal (TAB Space) effect for text
 \n : (backslash n) new line character
 \  : split single line and displays into two lines ex: persian_cat = "I'm split\non a line."
      I'm split
      on a line.
+\\ : To display back slash in string backslash_cat = "I'm \\ a \\ cat." ex: I'm \ a \ cat.
 \b : back space
 \f : form feed
 \r : carriage return
@@ -237,6 +271,7 @@ EX12: Prompting People for Numbers
 
 to take numbers as input, we can add .to_i to the gets.chomp and it will convert into integer.
 we can also save what gets.chomp returns, and call .to_i on that, ex: what we did with number = another.to_i
+above statement means nothing but, user input value is stored into variable.
 
 Floating values: use gets.chomp.to_f to get floating values like ex: 10.30
 
@@ -244,10 +279,11 @@ Floating values: use gets.chomp.to_f to get floating values like ex: 10.30
 
 EX13: Parameters, Unpacking, Variables
 
-You know how you type ruby ex13.rb to run the ex13.rb file? Well the ex13.rb part of the command is called an "argument."
 
-In first, second, third = ARGV   (first, second, third are variables)
-and ARGV is the "command line Argument," This command line Argument holds the arguments you pass to your Ruby script ($ruby ex13.rb first 2nd 3rds) when you run it.
+You know how you type (ruby ex13.rb) to run the ex13.rb file? Well the ex13.rb part of the command is called an "argument."
+
+In first, second, third = ARGV   (first, second, third are variables) (you can rename first, second, third to any name you want)
+and ARGV is the (ARGUMENT VARIABLE)it holds command line Argument (ex: apple banana cat) you pass to your Ruby script ($ruby ex13.rb apple banana cat) when you run it.
 
 Line 1 "unpacks" ARGV so that, rather than holding all the arguments, it gets assigned to three variables you can work with: first, second, and third.
 It just says, "Take whatever is in ARGV, unpack it, and assign it to all of these variables on the left in order."
@@ -255,6 +291,8 @@ It just says, "Take whatever is in ARGV, unpack it, and assign it to all of thes
 Change your script to use $stdin.gets.chomp, from now on since the action gets.chomp has problems with ARGV.
 
 command line arguments come in as strings.
+
+If you do not include all the command line arguments then it will leave the last variable empty.
 
 for numbers use gets.chomp.to_i
 
@@ -301,6 +339,10 @@ solution is to use ARGV or gets.chomp to ask the user what file to open instead 
 since we are asking to enter only one file name in command line argument,
 we are using filename = ARGV.first
 
+txt & txt_again can be any name ex: anil, txt is just a variable declared.
+
+Have your script also call close() on the txt and txt_again variables. It's important to close files when you are done with them.
+
 ***** txt = open(filename)
 "open" will open the file ex15_sample.txt into ex15.rb but not the file contents,
 it actually makes something called a "file object".
@@ -330,18 +372,25 @@ if we give the file name in the middle with gets.chomp some one should be there 
 
 EX16: Reading and writing files
 
-commands(methods/functions) that can be given to files.
+All sorts of commands(methods/functions) that can be given to files.
+
+open -- to open a file, open's it in 'r' (read) mode by default
 close -- Closes the file. like File -> Save.. in your editor
 read -- Reads the contents of the file. you can assign the result to a variable.
 readline -- Reads just one line of a text file.
 truncate -- Empties the file. Watch out if you care about the file.
 write('stuff') -- Writes "stuff" to the file.
+seek(0) -- Move the read/write location to the beginning of the file.
+exists --
+length --
+File (with capital F) --
 
 some of the above commands take parameters, but we do not care about that.
-write takes a parameter of a string you want to write to the file.
 
 $stdin.gets creates one line empty space in command line.
 
+write takes a parameter of a string you want to write to the file. ex1: line1 = $stdin.gets.chomp
+ex2: target.write(line1 + "\n").
 target.write(line1 + "\n" + line2 + "\n" + line3 + "\n")
 # one line to cut the repetition in script ex16.rb line 45 to 50.
 
@@ -363,12 +412,14 @@ which might not be our goal. Here's where it pays to make sure :). ]
 'a' for append
 
 modifiers to the file modes can i use?
-most important one to know for now is the + modifier
+most important one to know for now is the (+ modifier)
 'w+', 'r+' and 'a+' . This will open the file in both read and write mode,
 and depending on the character use position the file in different ways.
 
 open(filename) open's it in 'r' (read) mode by default, for the open() function.
 
+then we are closing (variable named Target that has the file) other wise they get eligible for garbage collection.
+close = File + Save
 ------------------------------------------------------
 
 EX17: More Files
@@ -377,7 +428,7 @@ we will transfer content from from_file to to_file.
 
 we can give .txt file name as argument to create a new .txt file while executing.
 
-we are creating a variable in_file and calling file object with open function for from_file.
+we are creating a variable in_file and calling (file object) with (open function) for from_file.
 creating a variable indata and moving content of file (in_file) into indata with in_file.read (read) function.
 
 #{indata.length} length tells us how many bytes long is the content in the file.
@@ -386,12 +437,14 @@ creating a variable indata and moving content of file (in_file) into indata with
 
 $stdin.gets waits for your input in command prompt. once you hit enter or Ctrl + C to quit.
 
-we create a new variable out_file and calling file object with open function for to_file with 'w' write mode.
+we create a new variable out_file and calling (file object) with (open function) for to_file with 'w' write mode.
 we are writing into to_file(out_file) with out_file.write(indata)  indata(from_file)
 
 then we are closing out_file and in_file other wise they get eligible for garbage collection.
-
+close = File + Save
 ------------------------------------------------------
+
+Ex18: Names, Variables, Code, Functions
 
 To Call/Use/Run a Function all mean the same thing.
 Function/ Variables name should not start with number but with letters, numbers and underscores will work.
@@ -408,7 +461,7 @@ we create Functions by using the word def (define) in Ruby.
 
 def print_two(*args)  <-- This is like your scripts with ARGV(command line Argument)
 First indented line is one that unpacks the arguments the same as with your scripts.
-we named the function "print_two" or call doesn't matter.
+we named the function "print_two" or call peanut doesn't matter.
 it is better to have functions with short names, that says what it does.
 *args (asterisk args), is lot like your ARGV parameter. (command line argument)
 but for functions asterisk tells ruby to take all arguments to the function and put them in args as a list.
@@ -435,6 +488,26 @@ print_two_again("anil","kumar")
 This is the way how you create your own functions in Ruby and use in your scripts.
 like exists, open, read etc...
 
+## CHECK LIST FOR FUNCTIONS ##
+
+
+Did you start your function definition with def?
+Does your function name have only characters and _ (underscore) characters?
+Did you put an open parenthesis ( right after the function name?
+Did you put your arguments after the parenthesis ( separated by commas?
+Did you make each argument unique (meaning no duplicated names)?
+Did you put a close parenthesis ) after the arguments?
+Did you indent all lines of code you want in the function two spaces?
+Did you end your function with end lined up with the def above?
+When you run ("use" or "call") a function, check these things:
+
+Did you call/use/run this function by typing its name?
+Did you put the ( character after the name to run it?
+Did you put the values you want into the parenthesis separated by commas?
+Did you end the function call with a ) character?
+Functions that don't have parameters do not need the () after them, but would it be clearer if you wrote them anyway?
+
+"To 'run,' 'call,' or 'use' a function all mean the same thing."
 ------------------------------------------------------
 
 EX19: Functions and Variables
@@ -563,7 +636,7 @@ In general, with nested parentheses, you always start from the innermost.
 
 The purpose of parentheses in this type of formula is to manage the order that the operations occur,
 Note: order of operations is PEMDAS (ex: please excuse my dear aunt sally)
-(standard order is multiplication and division,left to right, and then addition and subtraction, left to right).
+(standard order is multiplication and division, left to right, and then addition and subtraction, left to right).
 
 Remove the word (return) and see if the script still works. You'll find that it does because Ruby implicitly returns whatever the last expression calculates.
 However, this isn't clear so I want you to do it explicitly for my book.

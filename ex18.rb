@@ -1,10 +1,12 @@
 # Names, Variables, Code & Functions
 # functions are created by using the word "def" means "define"
 
+# The problem with print_two is that it's not the easiest way to make a function.
+
 # this one is like your scripts with ARGV
 # we named this function "print_two", or call "peanut" doesn't matter.
 # better to have your fuction should have a short name that says what it does.
-# First indented line is one that unpacks the arguments the same as with your scripts. 
+# First indented line is one that unpacks the arguments the same as with your scripts.
 def print_two(*args) # *args (asterisk args), which is a lot like your argv parameter
 # ....but for functions. asterisk tells ruby to take all arguments to the fuction and put them
 # in args as a list, it's like argv that you've been using, but for functions.
@@ -34,3 +36,5 @@ print_two("anil", "kumar")
 print_two_again("anil", "kumar")
 print_one("First!")
 print_none()
+
+# "To 'run,' 'call,' or 'use' a function all mean the same thing."

@@ -9,6 +9,7 @@
 # ** Practical limit is limit though is about five arguments.
 # ** You can call a function within a function.
 
+# cheese_count, boxes_of_crackers ARE VARIABLES
 def cheese_and_crackers(cheese_count, boxes_of_crackers)
   puts "You have #{cheese_count} cheeses!"
   puts "You have #{boxes_of_crackers} boxes of crackers!"

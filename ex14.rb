@@ -13,14 +13,14 @@ user_name = ARGV.first   # gets the first argument
 prompt = '+>> '
 #prompt = "> "
 
-puts "Hi #{first_name} #{last_name}."
+puts "Hi #{user_name}."
 puts "I'd like to ask you a few questions."
-puts "Do you like me #{first_name} #{last_name}? "
+puts "Do you like me #{user_name} ? "
 puts prompt
 likes = $stdin.gets.chomp
 
 # a comma for puts is like using puts twice
-puts "Where do you live #{first_name} #{last_name}? ", prompt
+puts "Where do you live #{user_name}? ", prompt
 lives = $stdin.gets.chomp
 
 # a comma for puts is like using it twice

@@ -59,7 +59,7 @@ end
 # (.chomp) avoid's creation of the newline, ignores (\n) character which was automatically created by ruby when gets is used.
 # when you use (gets.chomp) to ask user input, user will answer and hit enter, in the same way f.gets will copie 1 new line from file(input_file (ex: ex20_test.txt)) each time it uses print_a_line function.
 def print_a_line(line_count, f)
-  puts "#{line_count}, #{f.gets}"
+  puts "#{line_count}, #{f.gets.chomp}"
 end
 
 # current_line from bottom will pass value to line_count functional variable or argument. so the line_count prints 1, 2, 3,....

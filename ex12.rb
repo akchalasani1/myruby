@@ -2,7 +2,8 @@
 prompting to enter number with gets.chomp.to_i
 gets.chomp.to_i it will convert to an integer.
 we can also save what gets.chomp returns, and call .to_i on that, as we did with
-number = another.to_i below.
+number = another.to_i below. this statement means nothing but, user input value is stored into variable. 
+
 =end
 print "Give me a number: "
 number = gets.chomp.to_i
