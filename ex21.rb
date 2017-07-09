@@ -49,3 +49,20 @@ puts "\nHere is the puzzle."
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 puts "That becomes: #{what}. Can you do it by hand?"
+
+puts "\nmake your own assignment from the functions."
+
+# Finally, do the inverse. Write out a simple formula and use the functions in the same way to calculate it.
+test_this = add(2, 4) + subtract(200, 187) + multiply(height, weight) + divide(weight, age)
+# 6 + 13 + 13320 + 4
+puts "looks like we get: #{test_this}"
+
+=begin
+puts "\nmodify the parts of the functions. Try to change it on purpose to make another value."
+age = add(38, 5)
+height = subtract(78, 4)
+weight = multiply(90, 2)
+iq = divide(180, 2)
+
+puts "Age: #{age}, Height: #{height}, Weight: #{weight}, IQ: #{iq}"
+=end

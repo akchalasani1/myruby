@@ -1,3 +1,5 @@
+# ri File
+# ri File#seek
 # functions and Variables
 # The variables in your function are not connected to the variables in your script.
 # here's an exercise to get you thinking about this.

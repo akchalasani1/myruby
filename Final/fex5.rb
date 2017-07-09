@@ -23,7 +23,7 @@ puts "a\nb" # print a, then b at newline
 
 name = 'Joe'
 greeting = 'Hello, #{name}' # this won't produce "Hello, Joe"
-puts "This is: #{greeting}"
+puts greeting
 #
 # '' - variable can't be called into single quotes with #{} into other variable ex: greeting = 'Hello, #{name}' . since it expects only characters as a string not other variable.
 # "" - In double quotes you can write a string as well as call other variable with #{}.

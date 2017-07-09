@@ -1,16 +1,30 @@
 filename = ARGV.first
 
-text = open(filename)
+anil = File.open(filename)
 
 puts "Here's your file...#{filename}: "
-print text.read
-text.close
+print anil.read()
+anil.close
+
 =begin
 print "Type the filename again: "
 file_again = $stdin.gets.chomp
 
-txt_again = open(file_again)
+txt_again = File.open(file_again)
 
-print txt_again.read
+print txt_again.read()
 txt_again.close
+=end
+
+=begin
+➜  Final git:(acair) ✗ irb
+irb(main):001:0> anil = "fex15_sample.txt"
+=> "fex15_sample.txt"
+irb(main):002:0> txt = File.open(anil)
+=> #<File:fex15_sample.txt>
+irb(main):003:0> puts txt.read()
+This is stuff I typed into a file.
+It is really cool stuff.
+Lots and lots of fun to have in here.
+=> nil
 =end

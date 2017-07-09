@@ -1,3 +1,6 @@
+# Can I use single-quotes or double-quotes to make a string or do they do different things?
+# In Ruby the " (double-quote) tells Ruby to replace variables it finds with #{}, but the ' (single-quote) tells Ruby to leave the string alone and ignore any variables inside it.
+
 # below 4 lines are just printing string
 puts "Mary had a little lamb."
 # show will get printed since it is not a variable, below green line is just a string with

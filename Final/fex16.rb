@@ -9,8 +9,8 @@ $stdin.gets
 puts "Opening the file..."
 target = open(myfile, 'w')
 
-puts "Truncating the file. Goodbye!"
-target.truncate(0)
+#puts "Truncating the file. Goodbye!"
+#target.truncate(0)
 
 puts "Now i will ask you to enter 3 lines."
 

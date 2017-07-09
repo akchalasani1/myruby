@@ -127,6 +127,9 @@ comment this line in ex4.rb to get above error: carpool_capacity = cars_driven *
 
 EX5: More Variables and Printing
 
+Can I use single-quotes or double-quotes to make a string or do they do different things?
+In Ruby the " (double-quote) tells Ruby to replace variables it finds with #{}, but the ' (single-quote) tells Ruby to leave the string alone and ignore any variables inside it.
+
 Every time you put " (double-quotes) around a piece of text you have been making a string.
 A string is how you make something that your program might give to a human.
 You print strings, save strings to files, send strings to web servers, and many other things.
@@ -163,6 +166,12 @@ puts "a\nb" # print a, then b at newline
 
 EX6: Strings and Text
 
+# '' - variable can't be called into single quotes with #{} into other variable ex: greeting = 'Hello, #{name}' . since it expects only characters as a string not other variable.
+# "" - In double quotes you can write a string as well as call other variable with #{}.
+
+# Can I use single-quotes or double-quotes to make a string or do they do different things?
+# In Ruby the " (double-quote) tells Ruby to replace variables it finds with #{}, but the ' (single-quote) tells Ruby to leave the string alone and ignore any variables inside it.
+
 Strings can contain any number of variables that are in your Ruby script.
 A string is usually a bit of text you want to display to someone, or "export" out of the program you are writing.
 
@@ -184,6 +193,9 @@ That really just means "hey, when you see these characters together, it means ta
 ------------------------------------------------------
 
 EX7: More Printing
+
+Can I use single-quotes or double-quotes to make a string or do they do different things?
+In Ruby the " (double-quote) tells Ruby to replace variables it finds with #{}, but the ' (single-quote) tells Ruby to leave the string alone and ignore any variables inside it.
 
 puts "Its fleece was white as #{'show'}."
 
@@ -265,6 +277,26 @@ to the end of the string. ruby literally adds's newline once you hit enter key t
 .chomp : this method will avoid creation of newline (\n) that's why we use gets.chomp
 it displays all inputs enter to answer multiple questions with multiple enter key hits, in 1 line.
 
+source: http://discourse.codenewbie.org/t/what-does-gets-chomp-do/559
+There are two methods happening with gets.chomp (gets and chomp). If you call gets, ruby will wait for the user to input text via the keyboard. When you press enter, this is returned. In your code when your enter your name in terminal, it sets the variable name to whatever your type in.
+ex: name = gets.chomp
+
+When you use just "gets" and press enter/return. You are actually adding a newline (\n) to the end of your string, ruby is actually literally taking the enter and adding it to the end of your input.
+
+As for the chomp, this is a method that can be called on a string. Keep in mind when you input your name, it is input as text. Text can accept the chomp method, chomp will strip your text of any newlines (\n) automatically by using gets or manually added, or carrige returns (\r) at the end..
+
+source: http://ruby-doc.org/core-2.0.0/String.html#method-i-chomp
+Chomp, returns a new string with the given record separator removed from the end of the string.
+$ "hello".chomp   => "hello"
+$ "hello\n".chomp   => "hello"  # \n (new line)
+$ "hello\r\n".chomp   => "hello"
+$ "hello\r".chomp   => "hello"  # \r (carriage return)
+
+irb(main):002:0> "hello \n there".chomp
+=> "hello \n there"  # it printed \n in the result because, \n is not attached to hello like ex: "hello\n"
+
+How do I get a number from someone so I can do math?
+That's a little advanced, but try gets.chomp.to_i which says, "Get a string from the user, chomp off the \n, and convert it to an integer."
 ------------------------------------------------------
 
 EX12: Prompting People for Numbers

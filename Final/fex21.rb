@@ -1,20 +1,20 @@
 def add(a, b)
-  puts "Adding #{a}, #{b}"
+  puts "Adding #{a} + #{b}"
   return a + b
 end
 
 def substract(a, b)
-  puts "Substract #{a}, #{b}"
+  puts "Substract #{a} - #{b}"
   return a - b
 end
 
 def multiply(a, b)
-  puts "Multiply #{a}, #{b}"
+  puts "Multiply #{a} * #{b}"
   return a * b
 end
 
 def divide(a, b)
-  puts "Division #{a}, #{b}"
+  puts "Division #{a} / #{b}"
   return a / b
 end
 

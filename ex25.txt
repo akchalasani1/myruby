@@ -1,0 +1,44 @@
+➜  myruby git:(acair) ✗ irb
+irb(main):003:0> require "./diff_name.rb"
+=> true
+irb(main):004:0> sentence = "ani bulli vamsi rani karuna anila"
+=> "ani bulli vamsi rani karuna anila"
+irb(main):005:0> new_bus = Ex25.break_words(sentence)
+=> ["ani", "bulli", "vamsi", "rani", "karuna", "anila"]
+irb(main):006:0> new_bus
+=> ["ani", "bulli", "vamsi", "rani", "karuna", "anila"]
+irb(main):007:0> zortting = Ex25.sort_words(new_bus)
+=> ["ani", "anila", "bulli", "karuna", "rani", "vamsi"]
+irb(main):008:0> zortting
+=> ["ani", "anila", "bulli", "karuna", "rani", "vamsi"]
+irb(main):009:0> Ex25.print_first_word(new_bus)
+ani
+=> nil
+irb(main):010:0> Ex25.print_last_word(new_bus)
+anila
+=> nil
+irb(main):011:0> new_bus
+=> ["bulli", "vamsi", "rani", "karuna"]
+irb(main):012:0> Ex25.print_first_word(zortting)
+ani
+=> nil
+irb(main):013:0> Ex25.print_last_word(zortting)
+vamsi
+=> nil
+irb(main):014:0> zortting
+=> ["anila", "bulli", "karuna", "rani"]
+irb(main):015:0> zortting = Ex25.sort_sentence(sentence)
+=> ["ani", "anila", "bulli", "karuna", "rani", "vamsi"]
+irb(main):016:0> zortting
+=> ["ani", "anila", "bulli", "karuna", "rani", "vamsi"]
+irb(main):017:0> Ex25.print_first_and_last(sentence)
+ani
+anila
+=> nil
+irb(main):018:0> Ex25.print_first_and_last_sorted(sentence)
+ani
+vamsi
+=> nil
+irb(main):018:0> sentence
+=> "ani bulli vamsi rani karuna anila"
+irb(main):019:0> exit
