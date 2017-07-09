@@ -2,10 +2,14 @@
 # 10 is value assigned to variable using =
 # Strings can contain any number of variables that are in your Ruby script.
 
+# '' - variable can't be called into single quotes with #{} into other variable ex: greeting = 'Hello, #{name}' . since it expects only characters as a string not other variable.
+# "" - In double quotes you can write a string as well as call other variable with #{}.
+
 types_of_people = 10
 x = "There are #{types_of_people} types of people."
-binary = "binary"
-do_not = "don't"
+binary = 'binary'
+do_not = "don't" # we can't use single quotes since there is one single quote inside already.
+# we cannot also use escape sequence in single quotes, to do do_not = 'don\'t'
 # string binary and do_not be put inside the below string
 y = "Those who know #{binary} and those who #{do_not}."
 

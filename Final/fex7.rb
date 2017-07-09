@@ -14,5 +14,5 @@ End7 = "A"
 End8 = "L"
 End9 = "E"
 
-puts End6 + End7 + End8 + End9
 print End1 + End2 + End3 + End4 + End5
+puts End6 + End7 + End8 + End9

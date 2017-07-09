@@ -11,9 +11,11 @@
 fruit1, fruit2, fruit3 = ARGV
 puts "Your 1st favorite fruit is #{fruit1}"
 puts "Your 2nd favorite fruit is #{fruit2}"
-puts "Your 3rd favorite fruit is #{fruit3}"
+puts "Your 3rd favorite fruit is #{fruit3.to_i}"
+
+
 
 print "Do you have any other favorite fruit? "
 other_fruit = $stdin.gets.chomp
-#other_fruit = $stdin.gets.chomp.to_i  # for numbers to get caliculation. 
+#other_fruit = $stdin.gets.chomp.to_i  # for numbers to get caliculation.
 puts "You have a interesting 4th favorite fruit : : #{other_fruit}"

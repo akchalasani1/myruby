@@ -11,7 +11,7 @@ def print_two_again(arg1, arg2)
 end
 
 # this just takes one argument
-# arg1 IS VARIABLES 
+# arg1 IS VARIABLES
 def print_one(arg1)
   puts "arg1: #{arg1}"
 end

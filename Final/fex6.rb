@@ -1,7 +1,7 @@
 employee_number = 30
-name = "anil"
-location = "sunnyvale"
-work = "san francisco"
+name = 'anil'
+location = 'sunnyvale'
+work = 'san francisco'
 
 x = "New employee number = #{employee_number} and name = #{name} "
 y = "New employee locations = #{location}, and work = #{work}"
