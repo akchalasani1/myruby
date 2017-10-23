@@ -1,4 +1,4 @@
-  # $ ruby ex17.rb ex17_from_test.txt ex17_to_test.txt
+# $ ruby ex17.rb ex17_from_test.txt ex17_to_test.txt
 # we can give .txt file name as argument to create a new .txt file while executing.
 
 # write a ruby script to copy one file to another.
@@ -8,7 +8,8 @@ from_file, to_file = ARGV
 
 puts "Copying from #{from_file} to #{to_file}"
 
-# we could do these two on one line, how?
+####### We could do these below two lines in one line, how?
+####### indata = open(from_file).read
 in_file = open(from_file)
 indata = in_file.read
 

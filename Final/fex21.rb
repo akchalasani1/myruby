@@ -4,7 +4,7 @@ def add(a, b)
 end
 
 def substract(a, b)
-  puts "Substract #{a} - #{b}"
+  puts "Subtract #{a} - #{b}"
   return a - b
 end
 

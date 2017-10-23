@@ -36,8 +36,10 @@ target = open(filename, 'w' ) # file name with extra 'w' parameter
 puts "Truncating the file. Goodbye!"
 # target.truncate(0) # not required when opening file with 'w' access
 # but when we wipe out what ever is in there, here is where it pays to make sure...
-
+=begin
+The truncate method is redundant here because when a file is opened in write mode, the file will be truncated if it is an existing file. If the file does not yet exist, a new file will be created.
 puts "Now I'm going to ask you for three lines."
+=end
 
 print "line 1: "
 line1 = $stdin.gets.chomp

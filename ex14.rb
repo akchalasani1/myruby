@@ -23,7 +23,7 @@ likes = $stdin.gets.chomp
 puts "Where do you live #{user_name}? ", prompt
 lives = $stdin.gets.chomp
 
-# a comma for puts is like using it twice
+# a comma for (puts) is like using (puts) twice ex: for (prompt)
 puts "What kind of computer do you have? ", prompt
 computer = $stdin.gets.chomp
 

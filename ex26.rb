@@ -80,6 +80,7 @@ puts "With a starting point of: #{start_point}"
 puts "We'd have #{beans} beans, #{jars} jars, and #{crates} crates."
 
 start_point = start_point / 10
+puts "now start_point value is: #{start_point}"
 puts "we can do it in C style of inserting variables into Ruby strings: "
 puts "We'd have %s beans, %d jars, and %d crates." %secret_formula(start_point)
 
