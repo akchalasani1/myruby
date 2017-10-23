@@ -2,6 +2,8 @@ cpyfrom_file, cpyto_file = ARGV
 
 puts "Copying from #{cpyfrom_file} to #{cpyto_file}"
 
+# we could do these two on one line, how?
+# indata = open(from_file).read
 in_file = open(cpyfrom_file)
 indata = in_file.read
 

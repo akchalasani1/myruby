@@ -1,44 +1,96 @@
 ➜  myruby git:(acair) ✗ irb
 irb(main):003:0> require "./diff_name.rb"
 => true
+
+# Assign a string to the variable sentence
 irb(main):004:0> sentence = "ani bulli vamsi rani karuna anila"
-=> "ani bulli vamsi rani karuna anila"
+=> "ani bulli vamsi rani karuna anila
+
+# Call the function break_words in the module Ex25
+# enter sentence as argument
+# the function returns an array of words, assign this to 'new_bus'
 irb(main):005:0> new_bus = Ex25.break_words(sentence)
 => ["ani", "bulli", "vamsi", "rani", "karuna", "anila"]
+
+# Show the value of 'new_bus' array
 irb(main):006:0> new_bus
 => ["ani", "bulli", "vamsi", "rani", "karuna", "anila"]
+
+# Call the function 'sort_words' in the module Ex25
+# enter the 'new_bus' array as an argument
+# the function returns a sorted array of the words, assign this to 'zortting'
 irb(main):007:0> zortting = Ex25.sort_words(new_bus)
 => ["ani", "anila", "bulli", "karuna", "rani", "vamsi"]
+
+# Show the value of 'zortting' array
 irb(main):008:0> zortting
 => ["ani", "anila", "bulli", "karuna", "rani", "vamsi"]
+
+# Call the print_first_word function in module Ex25
+# give it an argument of the 'new_bus' (array of 'new_bus')
+# the first word of the list is printed
 irb(main):009:0> Ex25.print_first_word(new_bus)
 ani
 => nil
+
+# Call the print_last_word function in module Ex25
+# give it an argument of the 'new_bus' variable (array of 'new_bus')
+# the last word of the list is printed
 irb(main):010:0> Ex25.print_last_word(new_bus)
 anila
 => nil
+
+# Show the value of 'new-bus'
+# (It will be missing the first and last words, because
+# the previous two functions called removed the first and last elements)
 irb(main):011:0> new_bus
 => ["bulli", "vamsi", "rani", "karuna"]
+
+# Call print_first_word function, give it the 'zortting' array as an argument
+# the first word is printed
 irb(main):012:0> Ex25.print_first_word(zortting)
 ani
 => nil
+
+# Call print_last_word function, give it the 'zortting' array as an argument
+# the last word is printed
 irb(main):013:0> Ex25.print_last_word(zortting)
 vamsi
 => nil
+
+# Show the value of 'zortting'
+# (It will be missing the first and last elements, because
+# the previous two functions called removed the first and last elements)
 irb(main):014:0> zortting
 => ["anila", "bulli", "karuna", "rani"]
+
+# Call the 'sort_sentence' function on the sentence string
+# assign the returned list of words to the 'zortting' variable
 irb(main):015:0> zortting = Ex25.sort_sentence(sentence)
 => ["ani", "anila", "bulli", "karuna", "rani", "vamsi"]
+
+# Show the value of 'zortting', it is now the full list again
 irb(main):016:0> zortting
 => ["ani", "anila", "bulli", "karuna", "rani", "vamsi"]
+
+# Call the print_first_and_last function on the sentence
+# a copy of the sentence is created for the function
+# the sentence is broken up into words, and
+# the first and last words are printed
 irb(main):017:0> Ex25.print_first_and_last(sentence)
 ani
 anila
 => nil
+
+# Call the print_first_and_last_sorted function on the sentence
+# a copy of the sentence is split up into words
+# the words are sorted, then the first and last words are printed
 irb(main):018:0> Ex25.print_first_and_last_sorted(sentence)
 ani
 vamsi
 => nil
+
+# NOTE: if we type 'sentence' now, we will see sentence remains unchanged.
 irb(main):018:0> sentence
 => "ani bulli vamsi rani karuna anila"
 irb(main):019:0> exit

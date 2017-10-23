@@ -41,6 +41,10 @@ puts "---------"
 five = 10 - 2 + 3 - 6
 puts "This should be five: #{five}"
 
+=begin
+The return from a function gives the line of code that called the function a result.
+You can think of a function as taking input through its arguments and returning output through return.
+=end 
 def secret_formula(started)
   jelly_beans = started * 500
   jars = jelly_beans / 1000

@@ -345,7 +345,7 @@ ex: prompt = "> "
 later in the script when we asked a question we waited with prompt for user input.
 ex: puts prompt  rather than typing prompt = '>' ins the script again and again.
 
-A comma for puts is like using puts twice
+A comma for (puts) is like using (puts) twice. ex: for (prompt)
 we can also write puts like this ex: puts "Where do you live #{user_name}", prompt
 
 Since there is ARGV (command line Argument) in this script, we are using stdin.gets.chomp
@@ -474,6 +474,12 @@ we are writing into to_file(out_file) with out_file.write(indata)  indata(from_f
 
 then we are closing out_file and in_file other wise they get eligible for garbage collection.
 close = File + Save
+
+# we could do these two on one line, how?
+# indata = open(from_file).read
+in_file = open(from_file)
+indata = in_file.read
+
 ------------------------------------------------------
 
 Ex18: Names, Variables, Code, Functions
@@ -616,8 +622,14 @@ This would go 5 positions back in your stream.
 
 
 def print_a_line(line_count, f)
-  puts "#{line_count}, #{f.gets}"
+  puts "#{line_count}, #{f.gets.chomp}"
 end
+
+=begin
+gets.chomp: The part that immediately drew my attention here was the print_a_line function. I could see the line number was given as an argument and simply printed. The second argument was a file object variable. But the gets.chomp was being called on this file object. How was this giving us one line from the file object at a time? I couldn’t wait for the study drills to figure it out so I looked up the gets method on the I/O class object.
+When you run the gets method on the I/O object (a file object is an I/O object), the method reads the next line. It identifies the lines by the new line separators. The file object, f, remembers where the “cursor” is after each read (something it references to remembers). So, every time you call read on the file object, it returns the next line.
+The chomp method is called on the string returned, and it removes the new line character at the end. 
+=end
 
 # f just argument ex: ex18.rb or functional variable, it will carry the file object for(input_file (ex: ex20_test.txt)), , you can use any letter or word if you want.
 # so f.gets takes or copies the 1st line from(input_file (ex: ex20_test.txt)) until it encounters a newline or end of the 1st line, then it stops.

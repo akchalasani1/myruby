@@ -22,3 +22,6 @@ create a file from terminal:
 $ echo "This is a test file." > test.txt
 $ cat test.txt
 enter details from terminal and then CTRL + Z
+
+# To create a file with small sentence. 
+$ echo "This is a test file." > test.txt

@@ -9,14 +9,17 @@ puts "\nLet's do some math with just functions!"
 age = add(30, 5)
 puts "Age: #{age}"
 
-=begin
-def sub(a,b)
-  puts "sub #{a} - #{b}"
-  a-b
-end
-puts "\n lets do sub "
-s = sub(10-5)
-puts "small: #{s}"
+####################################################
 
-what = add(age,s)
-=end
+def sub(i , x)
+  puts "subtract #{i} - #{x}"
+  i - x
+end
+
+puts "\n lets do subtract "
+j = sub(10 , 5)
+puts "small: #{j}"
+
+what = add(age ,j)
+
+puts "Age = #{what}"

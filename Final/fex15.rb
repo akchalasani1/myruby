@@ -1,3 +1,4 @@
+=begin
 filename = ARGV.first
 
 anil = File.open(filename)
@@ -5,8 +6,9 @@ anil = File.open(filename)
 puts "Here's your file...#{filename}: "
 print anil.read()
 anil.close
+=end
 
-=begin
+
 print "Type the filename again: "
 file_again = $stdin.gets.chomp
 
@@ -14,7 +16,7 @@ txt_again = File.open(file_again)
 
 print txt_again.read()
 txt_again.close
-=end
+
 
 =begin
 ➜  Final git:(acair) ✗ irb

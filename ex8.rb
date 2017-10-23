@@ -12,7 +12,7 @@ puts formatter % {first: true, second: false, third: true, fourth: false}
 # we put the formatter inside the formatter.
 puts formatter % {first: formatter, second: formatter, third: formatter, fourth: formatter}
 
-puts formatter % {
+puts formatter %{
   first: "I had this thing.",
   second: "That you could type up right.",
   third: "But it didn't sing.",
