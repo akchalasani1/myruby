@@ -9,7 +9,7 @@ git add -A  ( to add all files to staging)
 
 git add . (if adding only 1 file with changes, if there are more files with changes git add -A for all, git add filename for specific one)
 
-git commit -m (saving changes or staging changes to a file, for git push)
+git commit -m “comment”(saving changes or staging changes to a file, for git push)
 
 git commit -am “comment”  (doesn't work if new file ADDING, only works for existing files to modifying)
 am = add and message
