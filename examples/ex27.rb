@@ -3,10 +3,10 @@
 Boolean Expression
 # Short Cut: Any && expression that has a false is immediately false,
 so you can stop there. Any || expression that has a true is immediately true
-=end
+
 
 NOT	true?
-!false	true
+!false true
 !true	false
 
 OR (||)	true?
@@ -44,3 +44,5 @@ NOT AND	true?
 1 == 1	true
 0 == 1	false
 0 == 0	true
+
+=end
