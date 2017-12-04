@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;examples/temp_test.rb&apos; to &apos;local_variable.rb&apos;" description="Rename resource &apos;temp_test.rb&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="temp_test.rb" name="local_variable.rb" stamp="1511986916415" updateReferences="true"/>
+</session>
