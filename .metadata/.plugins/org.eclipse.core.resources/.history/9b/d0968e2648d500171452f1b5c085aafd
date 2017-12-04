@@ -1,0 +1,8 @@
+class Testinstance
+  @color = "Red"
+  puts "color: #{@color}"
+  def method1
+    @color = 192
+    puts("Color value in method1: #{color}")
+  end
+end
