@@ -20,7 +20,7 @@ def reverse_each_word_in_a_string(string)
   new_sentence = []
   words.each do |word|
     # doing the same thing as reverse_whole_string
-    # but with eah word from an array
+    # but with each word from an array
     end_loop = word.length
     new_string = ''
     while end_loop > 0

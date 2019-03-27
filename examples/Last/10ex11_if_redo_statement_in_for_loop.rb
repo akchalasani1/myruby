@@ -11,3 +11,24 @@ for i in 0..5
 		redo
 	end
 end
+
+=begin
+https://blog.appsignal.com/2018/06/05/redo-retry-next.html
+
+10.times do |i|
+  puts "Iteration #{i}"
+  redo if i > 2
+end
+
+This will print:
+
+$ ruby redo.rb
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 3
+Iteration 3
+...
+
+=end

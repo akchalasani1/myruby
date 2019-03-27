@@ -2,74 +2,131 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef55d4cb-f8b6-48d7-a731-d9ef93667dc9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/fex14.rb" afterPath="$PROJECT_DIR$/Final/fex14.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/fex15.rb" afterPath="$PROJECT_DIR$/Final/fex15.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/fex17.rb" afterPath="$PROJECT_DIR$/Final/fex17.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/fex20.rb" afterPath="$PROJECT_DIR$/Final/fex20.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/fex21.rb" afterPath="$PROJECT_DIR$/Final/fex21.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/fex21a.rb" afterPath="$PROJECT_DIR$/Final/fex21a.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Final/fex9.rb" afterPath="$PROJECT_DIR$/Final/fex9.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diff_name.rb" afterPath="$PROJECT_DIR$/diff_name.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex14.rb" afterPath="$PROJECT_DIR$/ex14.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex16.rb" afterPath="$PROJECT_DIR$/ex16.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex17.rb" afterPath="$PROJECT_DIR$/ex17.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex20.rb" afterPath="$PROJECT_DIR$/ex20.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex22-review.txt" afterPath="$PROJECT_DIR$/ex22-review.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex24.rb" afterPath="$PROJECT_DIR$/ex24.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex25.rb" afterPath="$PROJECT_DIR$/ex25.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex25.txt" afterPath="$PROJECT_DIR$/ex25.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex26.rb" afterPath="$PROJECT_DIR$/ex26.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex27.rb" afterPath="$PROJECT_DIR$/ex27.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex28.rb" afterPath="$PROJECT_DIR$/ex28.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex29.rb" afterPath="$PROJECT_DIR$/ex29.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex30.rb" afterPath="$PROJECT_DIR$/ex30.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex31.rb" afterPath="$PROJECT_DIR$/ex31.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex8.rb" afterPath="$PROJECT_DIR$/ex8.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex9.rb" afterPath="$PROJECT_DIR$/ex9.rb" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myruby.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myruby.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/com.aptana.core.io/connections.31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/com.aptana.index.core/1517144124.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/com.aptana.index.core/1517144124.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/com.aptana.index.core/4010369919.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/com.aptana.index.core/4010369919.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/com.aptana.index.core/40682365.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/com.aptana.index.core/40682365.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/com.aptana.index.core/691056780.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/com.aptana.index.core/691056780.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/com.aptana.syncing.core/defaultConnection.31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/com.aptana.syncing.core/sites.31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/22/305b1a2143d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/30/10467b4f48d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/30/90d8418048d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/35/c0db6f485bd500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/35/e0198afa3fd50017134faeba7c0d366b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/41/40e6025040d50017134faeba7c0d366b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/5a/b03e656b40d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/60/e081164155d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/60/f02a66f5a7d4001717aec2c5766a0637" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/66/20e726bb48d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/6a/d030d63755d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/6d/c043d59950d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/78/40070aff40d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/78/e0c8047f41d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/82/a03c1c4940d50017134faeba7c0d366b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/89/101fa96e40d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/8e/c05db34a48d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/90/10d2382b55d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/98/90c048be48d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9b/d0968e2648d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a7/60d7bc8b48d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ab/d07453e7a8d4001717aec2c5766a0637" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b3/40a4758c41d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b6/10b9dc7d40d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/be/40e3b5f544d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c9/60264deda8d4001717aec2c5766a0637" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c9/8099b08348d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f7/90dbe1c348d500171452f1b5c085aafd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/examples/.indexes/b6/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/examples/.indexes/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/examples/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/examples/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/8.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/com.aptana.core.io.31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/com.aptana.syncing.core.31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.aptana.js.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.aptana.js.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.aptana.portal.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.aptana.portal.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.aptana.theme.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.aptana.theme.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Last/10ex10_if_next_statement_in_for_loop.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Last/10ex10_if_next_statement_in_for_loop.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Last/10ex11_if_redo_statement_in_for_loop.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Last/10ex11_if_redo_statement_in_for_loop.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Last/10ex13_Continuations_to_Rescue.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Last/10ex13_Continuations_to_Rescue.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Last/14ex5_basic_hash_methods.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Last/14ex5_basic_hash_methods.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Last/15ex1_strings_GeneralDelimited_length_count.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Last/15ex1_strings_GeneralDelimited_length_count.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Last/15ex4_strings_chop_strip_chomp.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Last/15ex4_strings_chop_strip_chomp.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Last/4constant_ruby.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Last/4constant_ruby.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/anagram.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/anagram.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/array_duplicates.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/array_duplicates.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/array_duplicates_1.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/array_duplicates_1.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/array_duplicates_2.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/array_duplicates_2.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/fibonacci_numbers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/fibonacci_numbers.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/string_reverse.rb" beforeDir="false" afterPath="$PROJECT_DIR$/examples/string_reverse.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/myruby@diff_name.coverage" NAME="diff_name Coverage Results" MODIFIED="1505413618421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@array_duplicates_1.coverage" NAME="array_duplicates_1 Coverage Results" MODIFIED="1505844112703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
     <SUITE FILE_PATH="coverage/myruby@fibonacci_numbers_2.coverage" NAME="fibonacci_numbers_2 Coverage Results" MODIFIED="1505505015086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@ex33b.coverage" NAME="ex33b Coverage Results" MODIFIED="1499922251718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@ex33.coverage" NAME="ex33 Coverage Results" MODIFIED="1499898057640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@oop_test.coverage" NAME="oop_test Coverage Results" MODIFIED="1503017393382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@ex33f_palindrome.coverage" NAME="ex33f_palindrome Coverage Results" MODIFIED="1505347444591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@ex36.coverage" NAME="ex36 Coverage Results" MODIFIED="1500926239124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@ex42b.coverage" NAME="ex42b Coverage Results" MODIFIED="1503953448503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@prime_num1.coverage" NAME="prime_num1 Coverage Results" MODIFIED="1505328610864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@ex34.coverage" NAME="ex34 Coverage Results" MODIFIED="1499987242906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@ex31.coverage" NAME="ex31 Coverage Results" MODIFIED="1499890282330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@ex32a.coverage" NAME="ex32a Coverage Results" MODIFIED="1499890299496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@fibonacci_numbers_3.coverage" NAME="fibonacci_numbers_3 Coverage Results" MODIFIED="1505685587741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@ex34a.coverage" NAME="ex34a Coverage Results" MODIFIED="1499989260017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
     <SUITE FILE_PATH="coverage/myruby@string_reverse_1.coverage" NAME="string_reverse_1 Coverage Results" MODIFIED="1505952268569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@parameter_list_to_array.coverage" NAME="parameter_list_to_array Coverage Results" MODIFIED="1506975734260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@ex40.coverage" NAME="ex40 Coverage Results" MODIFIED="1503017378881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@ex33.coverage" NAME="ex33 Coverage Results" MODIFIED="1499898057640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@ex32a.coverage" NAME="ex32a Coverage Results" MODIFIED="1499890299496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@array_duplicates_1.rcov" NAME="array_duplicates_1 Coverage Results" MODIFIED="1553208777716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@ex36.coverage" NAME="ex36 Coverage Results" MODIFIED="1500926239124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@ex34a.coverage" NAME="ex34a Coverage Results" MODIFIED="1499989260017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@oop_test.coverage" NAME="oop_test Coverage Results" MODIFIED="1503017393382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@ex31.coverage" NAME="ex31 Coverage Results" MODIFIED="1499890282330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
     <SUITE FILE_PATH="coverage/myruby@ex43c.coverage" NAME="ex43c Coverage Results" MODIFIED="1504637520809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@string_reverse.coverage" NAME="string_reverse Coverage Results" MODIFIED="1506028936973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
     <SUITE FILE_PATH="coverage/myruby@ex35a.coverage" NAME="ex35a Coverage Results" MODIFIED="1500336629071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@ex35.coverage" NAME="ex35 Coverage Results" MODIFIED="1500339567388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@fibonacci_numbers.rcov" NAME="fibonacci_numbers Coverage Results" MODIFIED="1551986315347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@fibonacci_num__1_.rcov" NAME="fibonacci_num (1) Coverage Results" MODIFIED="1553096871597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/learn" MODULE_NAME="myruby" />
     <SUITE FILE_PATH="coverage/myruby@fibonacci_numbers.coverage" NAME="fibonacci_numbers Coverage Results" MODIFIED="1505508898771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@ex32.coverage" NAME="ex32 Coverage Results" MODIFIED="1500424961944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@prime_num1.coverage" NAME="prime_num1 Coverage Results" MODIFIED="1505328610864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@ex40.coverage" NAME="ex40 Coverage Results" MODIFIED="1503017378881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
     <SUITE FILE_PATH="coverage/myruby@ex34b.coverage" NAME="ex34b Coverage Results" MODIFIED="1500007701007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@fibonacci_numbers_1.coverage" NAME="fibonacci_numbers_1 Coverage Results" MODIFIED="1505502449087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@ex33d_find_num_in_array.coverage" NAME="ex33d_find_num_in_array Coverage Results" MODIFIED="1505413386289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@fibonacci_numbers_3.coverage" NAME="fibonacci_numbers_3 Coverage Results" MODIFIED="1505685587741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
     <SUITE FILE_PATH="coverage/myruby@ex33c.coverage" NAME="ex33c Coverage Results" MODIFIED="1499907542694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
     <SUITE FILE_PATH="coverage/myruby@ex43a.coverage" NAME="ex43a Coverage Results" MODIFIED="1504136605049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@fibonacci_numbers_4.coverage" NAME="fibonacci_numbers_4 Coverage Results" MODIFIED="1505685999591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@fibonacci_num.rcov" NAME="fibonacci_num Coverage Results" MODIFIED="1551990228801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@ex42b.coverage" NAME="ex42b Coverage Results" MODIFIED="1503953448503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@ex34.coverage" NAME="ex34 Coverage Results" MODIFIED="1499987242906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@parameter_list_to_array.coverage" NAME="parameter_list_to_array Coverage Results" MODIFIED="1506975734260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@word_count.rcov" NAME="word_count Coverage Results" MODIFIED="1552591066596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/learn" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@array_duplicates_1.coverage" NAME="array_duplicates_1 Coverage Results" MODIFIED="1505844112703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@complete_string_reverse_without_reverse_method.rcov" NAME="complete_string_reverse_without_reverse_method Coverage Results" MODIFIED="1553179076117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/learn" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@ex35.coverage" NAME="ex35 Coverage Results" MODIFIED="1500339567388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
     <SUITE FILE_PATH="coverage/myruby@ex43b.coverage" NAME="ex43b Coverage Results" MODIFIED="1504208770668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@ex33d.coverage" NAME="ex33d Coverage Results" MODIFIED="1502335973658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
-    <SUITE FILE_PATH="coverage/myruby@ex38.coverage" NAME="ex38 Coverage Results" MODIFIED="1501790677773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@anagram.rcov" NAME="anagram Coverage Results" MODIFIED="1553619587197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@disp_array_dups.rcov" NAME="disp_array_dups Coverage Results" MODIFIED="1553283307539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/learn" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@fibonacci_numbers_1.coverage" NAME="fibonacci_numbers_1 Coverage Results" MODIFIED="1505502449087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
     <SUITE FILE_PATH="coverage/myruby@ex33a.coverage" NAME="ex33a Coverage Results" MODIFIED="1499898655382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@diff_name.coverage" NAME="diff_name Coverage Results" MODIFIED="1505413618421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@fibonacci_numbers_4.coverage" NAME="fibonacci_numbers_4 Coverage Results" MODIFIED="1505685999591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@array_duplicates_2.rcov" NAME="array_duplicates_2 Coverage Results" MODIFIED="1553270228679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@disp_array_hash_dup_count1.rcov" NAME="disp_array_hash_dup_count1 Coverage Results" MODIFIED="1553287782648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/learn" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@ex32.coverage" NAME="ex32 Coverage Results" MODIFIED="1500424961944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@ex33d_find_num_in_array.coverage" NAME="ex33d_find_num_in_array Coverage Results" MODIFIED="1505413386289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@string_reverse.coverage" NAME="string_reverse Coverage Results" MODIFIED="1506028936973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@string_reverse_without_reverse_method.rcov" NAME="string_reverse_without_reverse_method Coverage Results" MODIFIED="1553176546821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/learn" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@ex33b.coverage" NAME="ex33b Coverage Results" MODIFIED="1499922251718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@ex33f_palindrome.coverage" NAME="ex33f_palindrome Coverage Results" MODIFIED="1505347444591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@ex33d.coverage" NAME="ex33d Coverage Results" MODIFIED="1502335973658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@array_duplicates.rcov" NAME="array_duplicates Coverage Results" MODIFIED="1553205645036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@ex38.coverage" NAME="ex38 Coverage Results" MODIFIED="1501790677773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="myruby" />
+    <SUITE FILE_PATH="coverage/myruby@reverse_each_word_in_a_string_without_reverse_method.rcov" NAME="reverse_each_word_in_a_string_without_reverse_method Coverage Results" MODIFIED="1553176720141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/learn" MODULE_NAME="myruby" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -85,102 +142,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ex40a.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex40a.rb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/anagram.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="336">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex43.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex43.rb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/learn/test.rb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/learn/loops.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="194" column="0" lean-forward="true" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="384">
+              <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex44.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ex44.rb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/anagram_1.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="168">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex43a.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex43a.rb">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/anagram_2.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex43b.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex43b.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex43c.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex43c.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex40d.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex40d.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex40e.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex40e.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex40f.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex40f.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex36.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex36.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="168">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -215,10 +213,10 @@
       <find>spins</find>
       <find>@game_chart</find>
       <find>variable</find>
-      <find>while</find>
       <find>map</find>
       <find>next_scene_name</find>
       <find>cheat</find>
+      <find>while</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -230,93 +228,83 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build_your_class.rb" />
-        <option value="$PROJECT_DIR$/parameter_list_to_array.rb" />
-        <option value="$PROJECT_DIR$/parameter_list_to_array_1.rb" />
-        <option value="$PROJECT_DIR$/parameter_list_to_array_3.rb" />
-        <option value="$PROJECT_DIR$/naming_parameters.rb" />
-        <option value="$PROJECT_DIR$/Hash_newer_faster_1.rb" />
-        <option value="$PROJECT_DIR$/Hash_newer_faster.rb" />
-        <option value="$PROJECT_DIR$/Hash_newer_faster_3.rb" />
-        <option value="$PROJECT_DIR$/Hash_newer_faster_4.rb" />
-        <option value="$PROJECT_DIR$/Hash_newer_faster_5.rb" />
-        <option value="$PROJECT_DIR$/naming_math.rb" />
-        <option value="$PROJECT_DIR$/hash_in_out.rb" />
-        <option value="$PROJECT_DIR$/ex30a.rb" />
-        <option value="$PROJECT_DIR$/ex28.rb" />
-        <option value="$PROJECT_DIR$/ex27.rb" />
-        <option value="$PROJECT_DIR$/ex33a.rb" />
-        <option value="$PROJECT_DIR$/ex33b.rb" />
-        <option value="$PROJECT_DIR$/ex33_while_loop.rb" />
-        <option value="$PROJECT_DIR$/ex33c.rb" />
-        <option value="$PROJECT_DIR$/ex34a.rb" />
-        <option value="$PROJECT_DIR$/ex35a.rb" />
-        <option value="$PROJECT_DIR$/ex30.rb" />
-        <option value="$PROJECT_DIR$/ex34.rb" />
-        <option value="$PROJECT_DIR$/ex34b.rb" />
-        <option value="$PROJECT_DIR$/ex31c.rb" />
-        <option value="$PROJECT_DIR$/ex31d.rb" />
-        <option value="$PROJECT_DIR$/ex31.rb" />
-        <option value="$PROJECT_DIR$/ex29.rb" />
-        <option value="$PROJECT_DIR$/ex31a.rb" />
-        <option value="$PROJECT_DIR$/ex31b.rb" />
-        <option value="$PROJECT_DIR$/ex33f_palindrome.rb" />
-        <option value="$PROJECT_DIR$/ex33d_find_num_in_array.rb" />
-        <option value="$PROJECT_DIR$/ex33e_find_num_in_range.rb" />
-        <option value="$PROJECT_DIR$/ex33g_palindrome.rb" />
-        <option value="$PROJECT_DIR$/ex35.rb" />
-        <option value="$PROJECT_DIR$/ex32.rb" />
-        <option value="$PROJECT_DIR$/ex32_for_loop.rb" />
-        <option value="$PROJECT_DIR$/ex32a.rb" />
-        <option value="$PROJECT_DIR$/ex33.rb" />
-        <option value="$PROJECT_DIR$/ex36.rb" />
-        <option value="$PROJECT_DIR$/thebride.rb" />
-        <option value="$PROJECT_DIR$/themerman.rb" />
-        <option value="$PROJECT_DIR$/ex38a.rb" />
-        <option value="$PROJECT_DIR$/ex40.rb" />
-        <option value="$PROJECT_DIR$/oop_test.rb" />
-        <option value="$PROJECT_DIR$/floor.rb" />
-        <option value="$PROJECT_DIR$/ex42a-super.rb" />
-        <option value="$PROJECT_DIR$/ex42b-super.rb" />
         <option value="$PROJECT_DIR$/ex42a-method-overide.rb" />
         <option value="$PROJECT_DIR$/ex42b.rb" />
         <option value="$PROJECT_DIR$/ex43.rb" />
+        <option value="$PROJECT_DIR$/acRuby/02-ex1-@local-variable.rb" />
+        <option value="$PROJECT_DIR$/acRuby/01-ex2-variable.rb" />
+        <option value="$PROJECT_DIR$/acRuby/01-ex1-variable.rb" />
+        <option value="$PROJECT_DIR$/examples/Last/4constant_ruby.rb" />
+        <option value="$PROJECT_DIR$/examples/Last/10ex13_Continuations_to_Rescue.rb" />
+        <option value="$PROJECT_DIR$/examples/Last/15ex4_strings_chop_strip_chomp.rb" />
+        <option value="$PROJECT_DIR$/learn/palindrome.rb" />
+        <option value="$PROJECT_DIR$/examples/fibonacci_numbers.rb" />
+        <option value="$PROJECT_DIR$/learn/fibonacci_num.rb" />
+        <option value="$PROJECT_DIR$/examples/Last/15ex1_strings_GeneralDelimited_length_count.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/palindrome1.rb" />
+        <option value="$PROJECT_DIR$/examples/Last/10ex11_if_redo_statement_in_for_loop.rb" />
+        <option value="$PROJECT_DIR$/examples/Last/10ex12_begin_raise_rescue_retry_times_loop.rb" />
+        <option value="$PROJECT_DIR$/examples/Last/10ex10_if_next_statement_in_for_loop.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/string_methods.rb" />
+        <option value="$PROJECT_DIR$/examples/string_reverse.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/string_reverse.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/reverse_without_reverse_method.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/word_count.rb" />
+        <option value="$PROJECT_DIR$/examples/Last/14ex5_basic_hash_methods.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/word_count1.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/min_max_array.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/array_new.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/array_new_1.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/array.new_2.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/hash_methods.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/array_methods.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/min_max_array1.rb" />
+        <option value="$PROJECT_DIR$/examples/array_duplicates.rb" />
+        <option value="$PROJECT_DIR$/examples/array_duplicates_1.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/disp_array_hash_dup_count.rb" />
+        <option value="$PROJECT_DIR$/examples/array_duplicates_2.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/disp_array_dups.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/fibonacci_num1.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/string_reverse_without_reverse_method.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/even_odd_num.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/reverse_each_word_in_a_string_without_reverse_method.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/complete_string_reverse_without_reverse_method.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/disp_array_hash_dup_count1.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/find_miss_num_array.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/array_each.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/find_misg_num_array.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/find_missing_num_array.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/adding_num_in_array.rb" />
+        <option value="$PROJECT_DIR$/examples/anagram.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/fibonacci_num.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/test.rb" />
+        <option value="$PROJECT_DIR$/examples/learn/loops.rb" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="817" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
+    <navigator proportions="" version="1">
       <autoscrollToSource ProjectPane="false" />
       <autoscrollFromSource ProjectPane="true" />
-      <sortByType />
-      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="myruby" type="b2602c69:ProjectViewProjectNode" />
               <item name="myruby" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myruby" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myruby" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,10 +314,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="ex33&#9;FILE&#9;file:///Users/anil/myruby/ex33.rb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Custom" />
-    <property name="SearchEverywhereHistoryKey" value="ex33&#9;FILE&#9;file:///Users/anil/myruby/ex33.rb" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -343,77 +331,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.parameter_list_to_array">
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
-    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.anagram">
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
@@ -431,170 +359,123 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
-      <module name="" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration name="ex32" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="anagram" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="myruby" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/examples" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/ex32.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/examples/anagram.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
     </configuration>
-    <configuration name="ex35a" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="array_duplicates_1" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="myruby" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/examples" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/ex35a.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/examples/array_duplicates_1.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
     </configuration>
-    <configuration name="ex36" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="array_duplicates_2" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="myruby" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/examples" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/ex36.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/examples/array_duplicates_2.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
     </configuration>
-    <configuration name="ex38" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="disp_array_dups" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="myruby" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/examples/learn" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/ex38.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/examples/learn/disp_array_dups.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
     </configuration>
-    <configuration name="parameter_list_to_array" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="disp_array_hash_dup_count1" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="myruby" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/examples/learn" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/parameter_list_to_array.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/examples/learn/disp_array_hash_dup_count1.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.ex32" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.ex35a" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.ex36" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.ex38" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.parameter_list_to_array" />
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Ruby.disp_array_dups" />
+      <item itemvalue="Ruby.array_duplicates_1" />
+      <item itemvalue="Ruby.array_duplicates_2" />
+      <item itemvalue="Ruby.disp_array_hash_dup_count1" />
+      <item itemvalue="Ruby.anagram" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.parameter_list_to_array" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.ex38" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.ex36" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.ex32" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.ex35a" />
+      <list>
+        <item itemvalue="Ruby.anagram" />
+        <item itemvalue="Ruby.disp_array_hash_dup_count1" />
+        <item itemvalue="Ruby.disp_array_dups" />
+        <item itemvalue="Ruby.array_duplicates_2" />
+        <item itemvalue="Ruby.array_duplicates_1" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
@@ -649,11 +530,20 @@
       <workItem from="1505339847280" duration="115867000" />
       <workItem from="1506965261947" duration="556000" />
       <workItem from="1506969845550" duration="59681000" />
+      <workItem from="1544369133640" duration="368000" />
+      <workItem from="1544369560188" duration="2004000" />
+      <workItem from="1544375811352" duration="844000" />
+      <workItem from="1544378318450" duration="2843000" />
+      <workItem from="1548870718794" duration="40000" />
+      <workItem from="1551835823026" duration="5843000" />
+      <workItem from="1551922656780" duration="32000" />
+      <workItem from="1551922775369" duration="72676000" />
+      <workItem from="1552951506950" duration="82497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="483210000" />
+    <option name="totallyTimeSpent" value="650357000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -665,448 +555,366 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="817" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1988555" sideWeight="0.49306932" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756326" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3355526" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756326" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262317" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3355526" sideWeight="0.49427754" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17310444" sideWeight="0.5069307" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262317" sideWeight="0.49427754" order="3" side_tool="false" content_ui="tabs" x="21" y="308" width="1398" height="246" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288948" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49171272" visible="true" weight="0.22460657" />
+      <window_info id="Structure" order="1" weight="0.24964234" />
+      <window_info id="Favorites" order="2" sideWeight="0.5082873" side_tool="true" weight="0.22460657" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3288948" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32611465" />
+      <window_info anchor="bottom" x="21" y="308" width="1398" height="246" id="Debug" order="3" sideWeight="0.49427754" weight="0.32611465" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32738853" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50572246" side_tool="true" weight="0.3355526" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49427754" weight="0.30828026" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32611465" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49306932" visible="true" weight="0.22460657" />
+      <window_info id="Structure" order="1" weight="0.24964234" />
+      <window_info id="Favorites" order="2" sideWeight="0.5069307" side_tool="true" weight="0.17310444" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3288948" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32611465" />
+      <window_info anchor="bottom" x="21" y="308" width="1398" height="246" id="Debug" order="3" sideWeight="0.49427754" weight="0.32611465" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32738853" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50572246" side_tool="true" weight="0.3355526" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49427754" visible="true" weight="0.30828026" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32611465" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="814" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/examples/anagram.rb</url>
+          <line>1</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/examples/anagram.rb</url>
+          <line>2</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/examples/anagram.rb</url>
+          <line>3</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/examples/anagram.rb</url>
+          <line>5</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/examples/anagram.rb</url>
+          <line>8</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/examples/anagram.rb</url>
+          <line>11</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+      </breakpoints>
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex32a.rb">
+    <entry file="file://$PROJECT_DIR$/../.rvm/gems/ruby-2.4.2/gems/ruby-debug-ide-0.7.0.beta7/bin/rdebug-ide">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="290">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex32_for_loop.rb">
+    <entry file="file://$PROJECT_DIR$/examples/array_duplicates.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="144">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex33.rb">
+    <entry file="file://$PROJECT_DIR$/examples/array_duplicates_1.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="144">
+          <caret line="6" column="34" selection-start-line="6" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex33b.rb">
+    <entry file="file://$PROJECT_DIR$/examples/fibonacci_numbers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="336">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex33_while_loop.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/examples/string_reverse_1.rb">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex33a.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/examples/string_reverse.rb">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex33c.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex33e_find_num_in_range.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex33f_palindrome.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex33g_palindrome.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex34a.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex34b.rb">
+    <entry file="file://$PROJECT_DIR$/../.rvm/gems/ruby-2.4.2@global/gems/did_you_mean-1.1.0/lib/did_you_mean/core_ext/name_error.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex35a.rb">
+    <entry file="file://$PROJECT_DIR$/examples/array_duplicates_2.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="336">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex37.rb">
+    <entry file="file://$PROJECT_DIR$/examples/anagram_3.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.rvm/gems/ruby-2.4.2/gems/ruby-debug-ide-0.7.0.beta7/lib/ruby-debug-ide.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="168">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex33d_find_num_in_array.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/test_script.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/learn/string_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="352">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex35.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/min_max_array1.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/learn/min_max_array.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1868">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex38.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/interpolation.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/learn/hello_world.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/learn/hash_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1776">
+          <caret line="74" column="13" selection-start-line="74" selection-end-line="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex38b.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/even_odd_num.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="48">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex38a.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/disp_array_hash_dup_count1.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="240">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex34.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/disp_array_hash_dup_count.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="288">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex39.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/disp_array_dups.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1279">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex39a.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/complete_string_reverse_without_reverse_method.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1759">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="144">
+          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex39b.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/board.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/learn/array_new_1.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="168">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex40b.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/array_new.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex40c.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/array_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+        <state relative-caret-position="-1976" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex25.txt">
+    <entry file="file://$PROJECT_DIR$/examples/learn/array.new_2.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/learn/array_each.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="72">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex25.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/string_reverse.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-404">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex8.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/string_reverse_without_reverse_method.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex40.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/adding_num_in_array.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="48">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thebride.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/fibonacci_num1.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="192">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themerman.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/length.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/floor.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oop_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hash_newer_faster_5.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hash_newer_faster.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex42.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1831">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex42a-super.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex42a-method-overide.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="26" column="60" lean-forward="false" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex40d.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex40e.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex40f.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex36.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex42b.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2136">
-          <caret line="89" column="39" lean-forward="false" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex42b-super.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex40a.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex43c.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex43a.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/fibonacci_num.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex43b.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/reverse_each_word_in_a_string_without_reverse_method.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="88">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex43.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/find_missing_num_array.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="194" column="0" lean-forward="true" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-          <folding />
+        <state>
+          <caret column="15" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex44.rb">
+    <entry file="file://$PROJECT_DIR$/examples/learn/find_miss_num_array.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="24">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/learn/find_misg_num_array.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/learn/palindrome.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/learn/to_sum.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/learn/word_count.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/learn/word_count1.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ex24-return.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/learn/palindrome1.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/anagram.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/learn/test.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/learn/loops.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/anagram_1.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acRuby/01-ex1-variable.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acRuby/01-ex2-variable.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acRuby/02-ex1-@local-variable.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/anagram_2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>

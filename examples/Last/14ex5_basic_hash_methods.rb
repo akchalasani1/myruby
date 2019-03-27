@@ -6,6 +6,7 @@ names[2] = "Bryan"
 names[3] = "Charlie"
 names[4] = "Don"
 names[5] = "Edward"
+names[5] = "Edward"
 
 # Size:- The "size method" returns the size of the hash. It is a synonym for the length method.
 

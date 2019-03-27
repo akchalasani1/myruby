@@ -6,6 +6,7 @@
 # 	ABC = 1  # displays error, "dynamic constant assignment”
 # end
 
+# https://www.rubyguides.com/2017/07/ruby-constants/
 
 class Rubyblog
 	URL = "blackbytes.info"

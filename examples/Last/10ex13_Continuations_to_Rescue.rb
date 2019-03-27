@@ -3,11 +3,11 @@
 # You can go off and do other things, then jump back to the save point and everything will be as you left it.
 # so it's not a perfect analogy, but it kind of works.
 
-require "continuation"
-counter = 0
-continuation = callcc { |c| c } # define our savepoint
-puts(counter += 1)
-continuation.call(continuation) if counter < 5 # jump back to our savepoint
+#require "continuation"
+#counter = 0
+#continuation = callcc { |c| c } # define our savepoint
+#puts(counter += 1)
+#continuation.call(continuation) if counter < 5 # jump back to our savepoint
 
 # We use the callcc method to create a Continuation object. There's no clean OO syntax for this.
 

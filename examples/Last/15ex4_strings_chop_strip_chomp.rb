@@ -6,11 +6,13 @@ puts "Anila".chop 	# returns Anil
 
 type = "Batman"
 puts type.chop		# returns Batma
+puts type
 puts type == "Batma"		# returns flase
 
-type = "Batman"
-puts type.chop!		# returns Batma  # chop! method which mutates the original string. permanently changes the orginal string.
-puts type == "Batma" # returns true
+type1 = "Catman"
+puts type1.chop!		# returns Batma  # chop! method which mutates the original string. permanently changes the orginal string.
+puts type1
+puts type1 == "Catma" # returns true
 
 
 #	Strip:-

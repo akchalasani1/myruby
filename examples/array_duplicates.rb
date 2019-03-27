@@ -1,8 +1,10 @@
 
-def Get_dupe(country)
+def get_dupe(country)
+
   dupli = country.select {|i| country.count(i) > 1}
-  puts dupli.uniq
+  dupli.uniq
 
 end
 
-Get_dupe(["america","india","china","tibet","india","mexico","america","england","china","india"])
+p get_dupe(%W(IND USA UK IND UK RUS CHI))
+#Get_dupe(["america","india","china","tibet","india","mexico","america","england","china","india"])

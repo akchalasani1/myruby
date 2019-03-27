@@ -5,6 +5,7 @@
 # Terminates execution of a block if called within a block.
 
 # Next Statement
+# https://blog.appsignal.com/2018/06/05/redo-retry-next.html
 
 # Following example skip the current iteration in a for loop :
 
@@ -14,3 +15,26 @@ for x in 1..6
 	end
 	puts "Value of x is: #{x}"
 end
+
+=begin
+
+10.times do |i|
+  puts "Iteration #{i}"
+  next if i > 2
+  puts "Iteration done"
+end
+
+This will print:
+
+$ ruby next.rb
+Iteration 0
+Iteration done
+Iteration 1
+Iteration done
+Iteration 2
+Iteration done
+Iteration 3
+Iteration 4
+...
+
+=end
